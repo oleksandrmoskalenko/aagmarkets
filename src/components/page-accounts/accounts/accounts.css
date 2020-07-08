@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+.accounts {
+  height: 700px;
+  font-family: 'Open Sans', sans-serif;
+  background: #f8f8f8;
+  position: relative;
+  color: #000;
+}
+
+.accounts-block {
+  margin-top: 50px;
+  background: #fff;
+  height: 526px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.accounts__button {
+  display: none;
+  margin-top: 28px;
+  width: 235px;
+  height: 52px;
+  border-radius: 5px;
+  background: #52afee;
+  border: 1px solid #4ca1dc;
+  color: #fff;
+  margin-left: calc(50% - 117.5px);
+}
+
+.accounts__wrapper {
+  position: relative;
+  top: 0;
+  transition: top .5s linear;
+}
+
+.accounts__button:hover {
+  background: #009cff;
+  color: #fff;
+}
+
+.accounts__button:focus {
+  outline: 0;
+}
+
+.accounts__wrapper:hover {
+  top: -80px;
+  cursor: pointer;
+}
+
+.accounts__wrapper:hover>button {
+  display: block;
+}
+
+
+
+.accounts__subsubtitle {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 5%;
+  padding: 34px 0 18px;
+}
+
+.accounts__list {
+  margin: 0 20px 0 24px;
+}
+
+.accounts__item {
+  margin-top: 10px;
+  display: flex;
+}
+
+
+.accounts__icon {
+  margin-top: 0px;
+}
+
+.accounts__text {
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.accounts__text--small {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 18px;
+}
+
+.accounts__text--minus {
+  margin-left: 6px;
+  color: #bdbdbd;
+}
+
+.accounts__icon--minus {
+  margin-left: -4px;
+}
+
+@media (max-width: 1199px) {
+  .accounts-block {
+    height: 550px;
+  }
+}
+
+@media (max-width: 991px) {
+  .accounts {
+    height: 1300px;
+  }
+
+  .accounts-block {
+    width: 65%;
+  }
+
+  .accounts-block {
+    height: 440px;
+  }
+}
+
+@media (max-width: 767px) {
+  .accounts-block {
+    height: 550px;
+  }
+}
+

@@ -1,0 +1,96 @@
+.header-accounts {
+  height: 592px;
+  background: url('./img/header-accounts-bg.jpg') 100% 100% no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-accounts-block {
+  margin-top: 167px;
+}
+
+.header-accounts__title {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 4%;
+  line-height: 63px;
+  text-align: justify;
+}
+
+.header-accounts__subtitle {
+  margin: 20px 0 18px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.header-accounts__button {
+  width: 218px;
+  height: 52px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 39px;
+  background: #52afee;
+  border: 1px solid #4ca1dc;
+  border-radius: 5px;
+  line-height: 21px;
+  transition: .4s;
+}
+
+.header-accounts__button:hover {
+  background: #009cff;
+  color: #fff;
+}
+
+.header-accounts__button:focus {
+  outline:0;
+}
+
+.header-accounts__text {
+  font-size: 14px;
+  width: 434px;
+  text-align: justify;
+}
+
+@media (max-width: 992px) {
+  .header-accounts__title {
+    font-size: 38px;
+  }
+
+  .header-accounts__subtitle {
+    font-size: 18px;
+    width: 350px;
+  }
+
+  .header-accounts__text {
+    font-size: 12px;
+    width: 320px;
+  }
+
+  .header-accounts__button {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-accounts__title {
+    font-size: 32px;
+  }
+
+  .header-accounts__subtitle {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .header-accounts__text {
+    font-size: 11px;
+    width: 270px;
+  }
+
+  .header-accounts__button {
+    font-size: 14px;
+    width: 178px;
+  }
+}

@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+.vip-account {
+  height: 346px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.vip-account-block {
+  margin: 45px 0;
+}
+
+.vip-account__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  margin-top: 25px;
+}
+
+.vip-account__text {
+  width: 400px;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 36px 0 18px;
+}
+
+.vip-account__button {
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+  width: 252px;
+  background: #fff;
+  color: #52AFEE;
+  border: 1px solid #4CA1DC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.vip-account__button--blue {
+  background: #52AFEE;
+  margin-right: 13px;
+  color: #fff;
+}
+
+.vip-account__button:hover {
+  background:  #009cff;
+  color: #fff;
+}
+
+.vip-account__button:focus {
+  outline: 0;
+}
+
+.vip-account__img {
+  width: 515px;
+  height: 290px;
+  background: url('./img/vip-account-bg.png') no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1199px) {
+  .vip-account__img {
+    margin-top: 100px;
+    width: 463px;
+    height: 261px;
+  }
+
+  .vip-account__button {
+    width: 180px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .vip-account {
+    height: 690px;
+  }
+
+  .vip-account-block {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .vip-account__img {
+    margin-left: calc(50% - 231.5px);
+    margin-top: 0;
+  }
+
+  .vip-account__button {
+    width: 180px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .vip-account__title {
+    font-size: 38px;
+    text-align: center;
+  }
+  
+  .vip-account__text {
+    font-size: 14px;
+    margin: 18px 0 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .vip-account {
+    height: 450px;
+  }
+
+  .vip-account-block {
+    margin: 15px 0;
+  }
+  
+  .vip-account__title {
+    font-size: 32px;
+    margin-top: 0;
+  }
+
+  .vip-account__text {
+    font-size: 12px;
+    margin: 9px 0 18px;
+  }
+
+  .vip-account__img {
+    width: 309px;
+    height: 174px;
+    margin-left: calc(50% - 154.5px);
+    margin-top: 0;
+  }
+}

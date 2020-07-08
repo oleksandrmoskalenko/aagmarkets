@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+.market-price {
+  height: 550px;
+  background: url('./img/market-price-bg.png') 100% 42% no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.market-price__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.market-price-block {
+  width: 380px;
+  height: 360px;
+  text-align: center;
+}
+
+.market-price-block--black {
+  background: #000;
+  border-radius: 9px;
+}
+
+.market-price__subtitle {
+  font-size: 22px;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.market-price__svg--lower {
+  margin-top: 30px;
+}
+
+.market-price__title {
+  margin-top: 55px;
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 300;
+  font-weight: 700;
+}
+
+.market-price__text {
+  width: 320px;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  margin-left: calc(50% - 160px);
+}
+
+.market-price__link-text {
+  color: #52afee;
+  margin: 0;
+  width: 90px;
+  font-size: 16px;
+}
+
+.market-price__link {
+  color: #4CA1DC;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.market-price__link:hover {
+  color: #52AFEE;
+  text-decoration: none;
+}
+
+.market-price__button {
+  border: 1px solid #4CA1DC;
+  color: white;
+  background: none;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 174px;
+  height: 52px;
+  transition: .4s;
+}
+
+.market-price__button:hover {
+  background-color: #52AFEE;
+}
+
+.market-price__button:focus {
+  outline: 0;
+}
+
+@media (max-width: 1199px) {
+  .market-price-block {
+    width: 320px;
+    height: 303px;
+  }
+
+  .market-price__subtitle {
+    font-size: 20px;
+  }
+  
+  .market-price__svg {
+    width: 258px;
+    height: 195px;
+  }
+
+  .market-price__text {
+    margin: 0;
+    font-size: 15px;
+    width: 270px;
+    margin-left: calc(50% - 135px);
+  }
+
+  .market-price__button {
+    margin-top: 115px;
+  }
+}
+
+@media (max-width: 991px) {
+  .market-price {
+    background: #002836;
+    height: 720px;
+  }
+
+  .market-price-block {
+    margin-bottom: 40px;
+  }
+  
+  .market-price__title {
+    font-size: 38px;
+    margin: 30px 0;
+  }
+
+  .market-price__text {
+    font-size: 14px;
+    width: 400px;
+    margin: 0;
+  }
+
+  .market-price__link-text {
+    margin-left: 15px;
+  }
+
+  .market-price-block--text {
+    width: 400px;
+    height: 230px;
+  }
+
+  
+  .market-price__button {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .market-price {
+    height: 1150px;
+  }
+
+  .market-price__title {
+    font-size: 32px;
+  }
+
+  .market-price__subtitle{
+    font-size: 18px;
+  }
+
+  .market-price__text {
+    width: 270px;
+    margin-left: calc(50% - 135px);
+  }
+}

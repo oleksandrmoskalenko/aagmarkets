@@ -1,0 +1,117 @@
+.halal-investing {
+  height: 362px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.halal-investing-block {
+  height: 360px;
+}
+
+.halal-investing__img {
+  margin-top: 38px;
+  width: 445px;
+  height: 318.5px;
+  background: url('./img/halal-investing-bg.jpg') 100% 100% no-repeat;
+  background-size: contain;
+}
+
+.halal-investing__title {
+  margin-top: 38px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  width: 428px;
+}
+
+.halal-investing__text {
+  font-size: 17px;
+  font-style: normal;
+  color: #8D8D8D;
+  margin: 12px 0 45px 0;
+}
+
+.halal-investing__text--blue {
+  color: #52AFEE;
+}
+
+.halal-investing__button {
+  height: 52px;
+  width: 204px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  background: #52AFEE;
+  border: 1px solid #4CA1DC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: .4s;
+  margin-bottom: 30px;
+}
+
+.halal-investing__button:hover {
+  color: #fff;
+  background: #009cff;
+}
+
+.halal-investing__button:focus {
+  outline: 0;
+}
+
+.halal-investing__link:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .halal-investing {
+    height: 720px;
+  }
+
+  .halal-investing__title {
+    font-size: 38px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+  }
+
+  .halal-investing__text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .halal-investing__link {
+    display: flex;
+    align-self: center;
+  }
+
+  .halal-investing__img {
+    margin-left: calc(50% - 222.5px);
+  }
+}
+
+@media (max-width: 767px) {
+  .halal-investing__img {
+    width: 325px;
+    height: 232.5px;
+    margin-left: calc(50% - 162.5px);
+    margin-top: 0;
+  }
+
+  .halal-investing__title {
+    font-size: 32px;
+  }
+
+  .halal-investing__text {
+    font-size: 12px;
+    margin-bottom: 22px;
+  }
+
+  .halal-investing__text--blue {
+    font-size: 14px;
+  }
+
+  .halal-investing__button {
+    margin-bottom: 10px;
+  }
+}

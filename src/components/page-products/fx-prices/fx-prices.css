@@ -1,0 +1,76 @@
+.fx-prices {
+  font-family: 'Open Sans', sans-serif;
+  height: 460px;
+  background: url('./img/fx-prices-bg.jpg') no-repeat top center;
+  background-size: cover;
+  color: #fff;
+}
+
+.fx-prices__title {
+  padding-top: 78px;
+  width: 380px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.fx-prices__text {
+  width: 400px;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 24px 0 36px;
+}
+
+.fx-prices__button {
+  width: 274px;
+  height: 52px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #fff;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.fx-prices__button:hover {
+  border: 1px solid #4ca1dc;
+  background:  #009cff;
+}
+
+.fx-prices__button:focus {
+  outline: 0;
+}
+
+@media (max-width: 991px) {
+  .fx-prices__title {
+    font-size: 38px;
+  }
+
+  .fx-prices__text {
+    font-size: 14px;
+    width: 320px;
+  }
+
+  .fx-prices__button {
+    font-size: 14px;
+    width: 234px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fx-prices__title {
+    font-size: 32px;
+  }
+
+  .fx-prices__text {
+    font-size: 12px;
+  }
+
+  .fx-prices__button {
+    font-size: 13px;
+    width: 194px;
+  }
+}

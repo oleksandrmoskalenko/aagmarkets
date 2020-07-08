@@ -1,0 +1,126 @@
+.fx-trade {
+  height: 466px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fx-trade__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  padding-bottom: 58px;
+}
+
+.fx-trade-block {
+  border: 1px solid #E7EEF2;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.fx-trade__img {
+  height: 150px;
+  border-radius: 7px 7px 0 0;
+}
+
+.fx-trade__img--1 {
+  background: url('./img/ultra-competitixe-bg.png') no-repeat;
+  background-size: cover;
+}
+
+.fx-trade__img--2 {
+  background: url('./img/best-in-class-bg.png') no-repeat;
+  background-size: cover;
+}
+
+.fx-trade__img--3 {
+  background: url('./img/award-winning-bg.png') no-repeat;
+  background-size: cover;
+}
+
+.fx-trade__img--4 {
+  background: url('./img/expert-service-bg.png') no-repeat;
+  background-size: cover;
+}
+
+.fx-trade__wrapper {
+  padding: 0px 20px 30px;
+}
+
+.fx-trade__subsubtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+
+.fx-trade__text {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
+@media (max-width: 1199px) {
+  .fx-trade__subsubtitle {
+    font-size: 17px;
+    height: 95px;
+  }
+
+  .fx-trade__text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 991px) {
+  .fx-trade {
+    height: 770px;
+  }
+
+  .fx-trade__title {
+    font-size: 38px;
+  }
+
+  .fx-trade__subsubtitle {
+    font-size: 16px;
+    height: 65px;
+  }
+
+  .fx-trade__text {
+    font-size: 12px;
+  }
+
+  .fx-trade-block {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fx-trade {
+    height: 830px;
+  }
+
+  .fx-trade__title {
+    font-size: 32px;
+  }
+
+  .fx-trade__subsubtitle {
+    font-size: 14px;
+  }
+
+  .fx-trade__text {
+    font-size: 11px;
+  }
+
+  .fx-trade__wrapper {
+    height: 148px;
+  }
+}
+
+@media (max-width: 575px) {
+  .fx-trade__wrapper {
+    height: 168px;
+  }
+}

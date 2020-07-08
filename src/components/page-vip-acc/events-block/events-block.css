@@ -1,0 +1,127 @@
+.events {
+  height: 486px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+  
+.events__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+  
+.events__text {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  padding: 12px 0 64px;
+}
+  
+.events-block {
+  border: 1px solid #E7EEF2;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+  
+.events__img {
+  height: 150px;
+  border-radius: 7px 7px 0 0;
+}
+  
+.events__img--1 {
+  background: url('./img/flagship-events-bg.png') no-repeat;
+  background-size: cover;
+}
+  
+.events__img--2 {
+  background: url('./img/topycal-debates-bg.png') no-repeat;
+  background-size: cover;
+}
+  
+.events__img--3 {
+  background: url("./img/chef's-tables-bg.png") no-repeat;
+  background-size: cover;
+}
+  
+.events__img--4 {
+  background: url('./img/hospitality-bg.png') no-repeat;
+  background-size: cover;
+}
+  
+.events__wrapper {
+  padding: 0px 20px 30px;
+}
+  
+.events__subsubtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+  
+.events__text--small {
+  font-size: 14px;
+  padding: 0;
+  text-align: left;
+  line-height: 21px;
+}
+  
+@media (max-width: 1199px) {
+  .events__subsubtitle {
+    font-size: 17px;
+  }
+  
+  .events__text {
+    font-size: 13px;
+  }
+}
+  
+@media (max-width: 991px) {
+  .events {
+    height: 790px;
+  }
+  
+  .events__title {
+    font-size: 38px;
+  }
+  
+  .events__subsubtitle {
+    font-size: 16px;
+  }
+  
+  .events__text {
+    font-size: 12px;
+  }
+  
+  .events-block {
+    margin-bottom: 40px;
+  }
+}
+  
+@media (max-width: 767px) {
+  .events {
+    height: 840px;
+  }
+  
+  .events__title {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  .events__subsubtitle {
+    font-size: 14px;
+  }
+  
+  .events__text {
+    font-size: 11px;
+  }
+  
+  .events__wrapper {
+    height: 148px;
+  }
+}

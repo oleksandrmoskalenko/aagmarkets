@@ -1,0 +1,92 @@
+.footer {
+  height: 684px;
+  background: #222;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-block--logo {
+  padding-bottom: 20px;
+  margin: 40px 0 30px;
+  border-bottom: .5px solid #7a7a7a;
+}
+
+.footer__img {
+  margin-left: 25px;
+}
+
+.footer__img--amazon {
+  height: 27px;
+}
+
+.footer__img--meta-quotes {
+  height: 18px;
+}
+
+.footer-block--text {
+  margin-top: 45px;
+}
+
+.footer__text {
+  color: #888;
+  font-size: 11px;
+  margin-bottom: 11px;
+  text-align: justify;
+}
+
+.footer__text--white {
+  color: #fff;
+}
+
+.footer__list {
+  margin: 0;
+}
+
+.footer__spacer {
+  height: 15px;
+}
+
+.footer__link:hover {
+  text-decoration: none;
+}
+
+.footer__symbol {
+  color: #fff;
+  margin: 0 10px;
+}
+
+@media (max-width: 1199px) {
+  .footer {
+    height: 730px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer {
+    height: 860px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    height: 980px;
+  }
+
+  .footer-block--logo {
+    height: 140px;
+  }
+
+  .footer__link{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer {
+    height: 1150px;
+  }
+
+  .footer-block--text {
+    width: 90%;
+  }
+}

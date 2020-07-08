@@ -1,0 +1,123 @@
+.free-account {
+  font-family: 'Open Sans', sans-serif;
+  height: 777px;
+}
+
+.free-account__img {
+  width: 645px;
+  height: 411px;
+  background: url('./img/image-laptop-bg.png') no-repeat;
+  background-size: contain;
+  margin-left: calc(100% - 645px);
+}
+
+.free-account__title {
+  width: 697px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #000;
+  margin: 25px 0 64px;
+}
+
+.free-account__item {
+  padding-bottom: 16px;
+}
+
+.free-account__text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #333;
+  margin-left: 10px;
+}
+
+.free-account__button {
+  width: 218px;
+  height: 52px;
+  margin-top: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  background: #52afee;
+  border: 1px solid #4CA1DC;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.free-account__button:hover {
+  background: #009cff;
+}
+
+.free-account__button:focus {
+  outline: 0;
+}
+
+@media (max-width: 991px) {
+  .free-account__title {
+    font-size: 38px;
+    width: 100%;
+    line-height: 50px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .free-account__text {
+    font-size: 16px;
+  }
+
+  .free-account-block {
+    text-align: center;
+  }
+
+  .free-account__img {
+    margin-top: 80px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 879px) {
+  .free-account__img {
+    width: 549px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 767px) {
+  .free-account__title {
+    font-size: 32px;
+    margin-top: 15px;
+  }
+
+  .free-account__text {
+    font-size: 14px;
+  }
+
+  .free-account__img {
+    width: 452px;
+    height: 288px;
+    margin-top: 50px;
+  }
+
+  .free-account__button {
+    font-size: 14px;
+    width: 178px;
+  }
+}
+
+@media (max-width: 671px) {
+  .free-account__img {
+    width: 420px;
+    height: 299px;
+    margin-left: calc(45% - 210px);
+  }
+}
+
+@media (max-width: 575px) {
+  .free-account__img {
+    width: 387px;
+    height: 247px;
+    margin-left: calc(45% - 193.5px);
+  }
+}

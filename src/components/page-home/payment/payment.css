@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.payment {
+  height: 108px;
+  font-family: 'Open Sans', sans-serif;
+  background: #f8f8f8;
+  position: relative;
+}
+
+.payment__text {
+  font-size: 20px;
+  margin: 0;
+}
+
+.payment__block {
+  height: 100%;
+}
+
+.payment__text--bold {
+  font-weight: 700;
+}
+
+.payment__img {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+
+  .payment {
+    height: 120px;
+  }
+
+  .payment__block {
+    text-align: center;
+  }
+}

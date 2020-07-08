@@ -1,0 +1,93 @@
+.forex-spreads {
+  height: 600px;
+  background: #fff;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.forex-spreads__title {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+  margin: 60px 0 12px;
+}
+
+.forex-spreads__text {
+  font-size: 16px;
+}
+
+.forex-spreads__text--small {
+  font-size: 14px;
+  margin: 0;
+  color: #797979;
+}
+
+.forex-spreads__text--blue {
+  color: #52afee;
+}
+
+.forex-spreads__table {
+  height: 263px;
+  margin: 54px 0 12px;
+  text-align: left;
+}
+
+.forex-spreads__item {
+  width: 25%;
+  vertical-align: middle;
+  box-shadow: 0px 1px 0px #F8F8F8;
+}
+
+.forex-spreads__item-title {
+  background: #f8f8f8;
+  font-weight: 700;
+}
+
+.forex-spreads__link:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .forex-spreads__title {
+    font-size: 38px;
+  }
+
+  .forex-spreads__text {
+    font-size: 14px;
+  }
+
+  .forex-spreads__item {
+    font-size: 14px;
+  }
+
+  .forex-spreads__text--small {
+    font-size: 12px;
+  }
+
+  .forex-spreads__table {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .questions__title {
+    font-size: 32px;
+  }
+
+  .forex-spreads__text {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .forex-spreads__item {
+    font-size: 12px;
+  }
+ 
+  .forex-spreads__text--small {
+    font-size: 11px;
+  }
+
+  .forex-spreads__table {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+.leverage-trade {
+  height: 770px;
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.leverage-trade__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 55px 0 30px;
+}
+
+.leverage-trade__link {
+  margin: 25px 0;
+}
+
+.leverage-trade__link:hover {
+  text-decoration: none;
+}
+
+.leverage-trade__text {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.leverage-trade__text--blue {
+  color: #52afee;
+}
+
+.leverage-trade__text--big {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.leverage-trade__wrapper {
+  margin-top: 45px;
+}
+
+.leverage-trade__percent {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.leverage-trade__img {
+  margin: 0 10px 20px 0;
+  width: 523px;
+  height: 354px;
+  background: url('./img/leverage-trade.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 1px 1px 1px 1px;
+  box-shadow: 0 0 19px 4px rgba(0,0,0,.26);
+}
+
+.leverage-trade__button {
+  margin-top: 60px;
+  width: 153px;
+  height: 52px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  background: #52afee;
+  border: 1px solid #4ca1dc;
+  border-radius: 5px;
+  line-height: 21px;
+}
+
+.leverage-trade__button:hover {
+  background: #009cff;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s;
+}
+
+.leverage-trade__button:focus {
+  outline:0;
+}
+
+@media (max-width: 1199px) {
+  .leverage-trade__img {
+    width: 419px;
+    height: 281px;
+  }
+}
+
+@media (max-width: 991px) {
+  .leverage-trade {
+    height: 900px;
+  }
+
+  .leverage-trade-block {
+    text-align: center;
+  }
+
+  .leverage-trade__img {
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .leverage-trade__title {
+    font-size: 38px;
+    margin: 20px 0 15px;
+  }
+
+  .leverage-trade__text {
+    font-size: 14px;
+  }
+
+  .leverage-trade__percent{
+    font-size: 26px;
+  }
+
+  .leverage-trade__button {
+    margin-top: 20px;
+  }
+
+  .leverage-trade__link {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .leverage-trade__title {
+    font-size: 32px;
+  }
+
+  .leverage-trade__text {
+    font-size: 12px;
+  }
+
+  .leverage-trade__percent{
+    font-size: 20px;
+  }
+}

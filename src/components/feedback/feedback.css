@@ -1,0 +1,103 @@
+.feedback {
+  height: 575px;
+  background: url('./img/feedback-bg.jpg') 100% 100% no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feedback__title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+  margin: 70px 0 64px;
+}
+
+.feedback-block {
+  color: #333;
+}
+
+.feedback__item {
+  background: #fff;
+  height: 251px;
+  padding: 0 24px;
+}
+
+.feedback__text {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 23px;
+  padding: 28px 0 23px;
+  border-bottom: 1px solid #e7eef2;
+}
+
+.feedback__author-img {
+  background: #000;
+  width: 62px;
+  height: 62px;
+  margin-right: 12px;
+}
+
+.feedback__author-img--1 {
+  background: url('./img/author-rl.jpg') 100% 100% no-repeat;
+}
+
+.feedback__author-img--2 {
+  background: url('./img/author-jw.jpg') 100% 100% no-repeat;
+}
+
+.feedback__author-img--3 {
+  background: url('./img/author-mg.jpg') 100% 100% no-repeat;
+}
+
+.feedback__author-name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.feedback__author-date {
+  color: #797979;
+  font-size: 14px;
+}
+
+.slick-dots {
+  bottom: -90px;
+}
+
+.slick-dots li{
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 12px;
+  height: 12px;
+}
+
+li.slick-active{
+  background:#9b9b99;
+}
+
+.slick-next {
+  right: -60px;
+}
+
+.slick-prev {
+  left: -60px;
+}
+
+.slick-next:before{
+  content: '\203A';
+  font-size: 40px;
+  opacity: 100%;
+}
+
+.slick-prev:before{
+  content: '\2039';
+  font-size: 40px;
+  opacity: 100%;
+}
+
+
+
+
+

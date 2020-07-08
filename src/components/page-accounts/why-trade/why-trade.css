@@ -1,0 +1,71 @@
+.why-trade {
+  height: 603px;
+  background: #F8F8F8;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.why-trade-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.why-trade__title {
+  padding: 144px 0 65px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.why-trade__subsubtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  padding: 34px 0 8px;
+}
+
+.why-trade__text {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .why-trade__title {
+    padding-top: 70px;
+    font-size: 38px;
+  }
+
+  .why-trade__subsubtitle {
+    padding-top: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .why-trade__title {
+    padding: 40px 0;
+    font-size: 32px;
+  }
+
+  .why-trade__subsubtitle {
+    font-size: 16px;
+  }
+
+  .why-trade__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .why-trade__subsubtitle {
+    font-size: 14px;
+  }
+
+  .why-trade__text {
+    font-size: 11px;
+  }
+}
