@@ -1,30 +1,11 @@
 import React, { Component } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import SignIn from '../page-sign-forms/sign-in/sign-in'
 
 import './navbar.css'
-import { BrowserRouter as Router, Redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default class BootstrapNavbar extends Component {
-
-  state = {
-    redirect: false,
-  }
-
-  setRedirect = () => {
-    this.setState({
-      redirect: true
-    })
-  }
-
-  doRedirect = (route) => {
-    return (
-      <Router>
-        <Redirect to={route} />
-      </Router>
-    )
-  }
 
   render() {
     return (
@@ -54,9 +35,9 @@ export default class BootstrapNavbar extends Component {
                     <Nav.Link href="/vip-accounts" className="navigation__link">VIP Accounts</Nav.Link>
                     <Nav.Link href="/products" className="navigation__link">Products</Nav.Link>
                   </Nav>
-                  <div class="navigation__block d-flex align-items-center justify-content-center">
-                    <button className="navigation__button navigation__button--login" onClick={this.setRedirect}>Login{this.doRedirect('/login')}</button>
-                    <button className="navigation__button navigation__button--register">Register</button>
+                  <div className="navigation__block d-flex align-items-center justify-content-center">
+                    <Link to="/login"><button className="navigation__button navigation__button--login">Login</button></Link>
+                    <Link to="/registration"><button className="navigation__button navigation__button--register">Register</button></Link>
                   </div>
                 </Navbar.Collapse>
               </Navbar>

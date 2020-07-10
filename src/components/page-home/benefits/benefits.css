@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.benefits {
+  height: 450px;
+  background: url('img/benefits-bg.jpg') 100% 100% no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.benefits__icon {
+  margin-top: 123px;
+  margin-bottom: 45px;
+  stroke: white;
+  height: 55px;
+}
+
+.benefits__icon--1 {
+  background: url('./img/benefits-deposits.png');
+  width: 37px;
+}
+
+.benefits__icon--2 {
+  background: url('./img/benefits-leverage.png');
+  width: 78px;
+}
+
+.benefits__icon--3 {
+  background: url('./img/benefits-security.png');
+  width: 52px;
+}
+
+
+.benefits__subsubtitle {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 18px;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.benefits__text {
+  color: white;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.benefits-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .benefits__icon {
+    margin-top: 93px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits__icon {
+    margin: 73px 0 15px;
+  }
+  
+  .benefits__subsubtitle {
+    font-size: 14px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .benefits__text {
+    font-size: 12px;
+  }
+}

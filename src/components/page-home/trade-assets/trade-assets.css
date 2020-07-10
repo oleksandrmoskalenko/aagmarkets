@@ -74,6 +74,11 @@
   margin-bottom: 35px;
 }
 
+.trade-assets__tbody {
+  width: 100%;
+  height: 280px;
+}
+
 .trade-assets__item {
   background: #f4f7fb;
   border: 2px solid #fff;

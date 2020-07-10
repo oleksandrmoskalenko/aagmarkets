@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-
+import { Link } from 'react-router-dom'
 import '../../../css/reset.css'
 import './sign-in.css'
 
@@ -28,11 +28,12 @@ const SignIn = () => {
                 <Form.Group controlId="formBasicCheckbox">
                   <Form.Check type="checkbox" label="Remember me" />
                 </Form.Group>
-                <Button className="sign-in__button" type="submit">
+                <Link to="/homepage"><Button className="w-100 sign-in__button" type="submit">
                   Submit
-              </Button>
+                </Button>
+                </Link>
                 <p className="sign-in__text text-right">
-                  Forgot <a href="#" className="sign-in__link">password?</a>
+                  Forgot <Link to="/forgot-password">password?</Link>
                 </p>
               </Form>
             </div>

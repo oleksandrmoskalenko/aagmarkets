@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../../css/reset.css'
 import './accounts.css'
 
@@ -86,7 +87,7 @@ const Accounts = () => {
                   </li>
                 </ul>
               </div>
-              <button className="accounts__button">Create Basic Account</button>
+              <Link to="/registration" className="accounts__link"><button className="accounts__button">Create Basic Account</button></Link>
             </div>
           </div>
           <div className="col-12 col-lg-4 d-flex justify-content-center">
@@ -167,7 +168,7 @@ const Accounts = () => {
                   </li>
                 </ul>
               </div>
-              <button className="accounts__button">Create Platinum Account</button>
+              <Link to="/registration" className="accounts__link"><button className="accounts__button">Create Platinum Account</button></Link>
             </div>
           </div>
           <div className="col-12 col-lg-4 d-flex justify-content-center">
@@ -248,7 +249,7 @@ const Accounts = () => {
                   </li>
                 </ul>
               </div>
-              <button className="accounts__button">Create Vip Account</button>
+              <Link to="/registration" className="accounts__link"><button className="accounts__button">Create Vip Account</button></Link>
             </div>
           </div>
         </div>

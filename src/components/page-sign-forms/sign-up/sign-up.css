@@ -38,6 +38,7 @@
   border:none!important;
   height: 40px;
   transition: .4s!important;
+  margin-bottom: 25px;
 }
 
 .sign-up__button:hover {

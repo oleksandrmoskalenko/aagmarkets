@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../../css/reset.css'
 import './header-vip-acc.css'
 
@@ -15,8 +16,8 @@ const HeaderVipAcc = () => {
               exclusive event invitations.</h3>
               <p className="header-vip-acc__text">Minimum funding USD 1,000,000</p>
               <div className="header-vip-acc__wrapper d-flex">
-                <button className="header-vip-acc__button">Open Personal VIP Account</button>
-                <button className="header-vip-acc__button header-vip-acc__button--black">Open Corporate VIP Account</button>
+                <Link to="/registration"><button className="header-vip-acc__button">Open Personal VIP Account</button></Link>
+                <Link to="/registration"><button className="header-vip-acc__button header-vip-acc__button--black">Open Corporate VIP Account</button></Link>
               </div>
             </div>
           </div>

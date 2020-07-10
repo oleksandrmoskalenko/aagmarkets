@@ -1,0 +1,202 @@
+[
+  {
+    "headerHomepage": [
+      {
+        "id": "1",
+        "title": "Access to the World's Leading Markets",
+        "subtitle": "Trade Forex, Gold, Crypto, Oil, Indices and Comodities."
+      },
+      {
+        "id": "2",
+        "title": "Open a Free Account and Trade",
+        "subtitle": "Take advantage of the best market prices and trade on our tightest spreads and lowest commissions."
+      },
+      {
+        "id": "3",
+        "title": "Our best prices",
+        "subtitle": "Use industry-leading trading platform, get zero fees and commissions and take advantage of tight spreads.."
+      }
+    ]
+  },
+  {
+    "vipAdvantages": [
+      {
+        "id": "1",
+        "title": "Our best prices",
+        "text": "Trade on our tightest spreads and lowest commissions."
+      },
+      {
+        "id": "2",
+        "title": "Priority client support",
+        "text": "Receive dedicated 24/5 support from our world-class trading experts."
+      },
+      {
+        "id": "3",
+        "title": "Personal expert meetups",
+        "text": "Discuss market movements and outlooks with the AAG."
+      },
+      {
+        "id": "4",
+        "title": "Exclusive event invitations",
+        "text": "Attend the most prestigious money-can’t-buy events."
+      }
+    ]
+  },
+  {
+    "fxTrade": [
+      {
+        "id": "1",
+        "title": "Ultra-competitive FX spreads",
+        "text": "Trade major Forex pairs from 0.4 pips. Competitive entry prices and even lower rates for active traders."
+      },
+      {
+        "id": "2",
+        "title": "Best-in-className execution",
+        "text": "Tier-1 liquidity gives higher fill-rates, fewer premature stop-outs and significant price improvements."
+      },
+      {
+        "id": "3",
+        "title": "Award-winning platform",
+        "text": "Benefit from integrated Trade Signals, news feeds and innovative risk-management features."
+      },
+      {
+        "id": "4",
+        "title": "Expert service, trusted for 25 years",
+        "text": "With 800,000+ satisfied customers, AAGMarkets offers world-className service around the clock."
+      }
+    ]
+  },
+  {
+    "clientSupport": [
+      {
+        "img": "dedicated",
+        "title": "Dedicated sales trader",
+        "text": "Receive expert one-to-one support, market commentary, assistance placing complex orders and a sparring mate for trading strategies and risk management whenever markets are open."
+      },
+      {
+        "img": "personal",
+        "title": "Personal relationship manager",
+        "text": "Get access to new features, products, curated news and exclusive event invites from your relationship manager. Your personal point of contact is on hand to help with platform, trading and account queries, in your local language."
+      },
+      {
+        "img": "senior",
+        "title": "Senior management",
+        "text": "Discuss market outlooks with the most important players and get the view from inside our business. As a VIP, members of our senior management team are always available to take your call and listen to your feedback."
+      }
+    ]
+  },
+  {
+    "eventsBlock": [
+      {
+        "id": "1",
+        "title": "Flagship events",
+        "text": "Attend our market-focused flagship events at the most exclusive venues."
+      },
+      {
+        "id": "2",
+        "title": "Topical debates",
+        "text": "Join our insightful, expert-led talks, tailored to current market events."
+      },
+      {
+        "id": "3",
+        "title": "Chef’s tables",
+        "text": "Discuss market movements over dinner at some of the world’s finest places."
+      },
+      {
+        "id": "4",
+        "title": "Chef’s tables",
+        "text": "Reserve the best seats at the biggest entertainment and sporting events."
+      }
+    ]
+  },
+  {
+    "feedback": [
+      {
+        "id": "1",
+        "text": "Excellent online and mobile platforms and charting software on a wide range of markets. Accurate execution of orders.",
+        "author": "Richard L.",
+        "date": "13 / 01 / 19"
+      },
+      {
+        "id": "2",
+        "text": "Excellent online and mobile platforms and charting software on a wide range of markets. Accurate execution of orders.",
+        "author": "John W.",
+        "date": "29 / 01 / 19"
+      },
+      {
+        "id": "3",
+        "text": "Excellent online and mobile platforms and charting software on a wide range of markets. Accurate execution of orders.",
+        "author": "Max G.",
+        "date": "22 / 02 / 19"
+      },
+      {
+        "id": "4",
+        "text": "Excellent online and mobile platforms and charting software on a wide range of markets. Accurate execution of orders.",
+        "author": "John W.",
+        "date": "05 / 03 / 19"
+      }
+    ]
+  },
+  {
+    "startTrading": [
+      {
+        "id": "1",
+        "title": "Register",
+        "text": "Signup and confirm your email address to get instant access to our Trader's Room and MT4 trading platform. (~30 seconds)."
+      },
+      {
+        "id": "2",
+        "title": "Fund",
+        "text": "Deposit USD or Bitcoin using multiple payment methods to fund your personal account. (~2 minutes)."
+      },
+      {
+        "id": "3",
+        "title": "Trade",
+        "text": "Start trading multiple assets with leverage and the lowest fees."
+      }
+    ]
+  },
+  {
+    "whyTrade": [
+      {
+        "id": "1",
+        "title": "Global market access",
+        "text": "Trade more than 40,000 instruments across forex, stocks, options, ETFs, commodities, futures, bonds and mutual funds."
+      },
+      {
+        "id": "2",
+        "title": "Powerful platforms",
+        "text": "Access both our platforms, the award-winning AAGMarkets and professional-grade AAG TraderPRO, from one account."
+      },
+      {
+        "id": "3",
+        "title": "Industry-leading prices",
+        "text": "Benefit from market-leading entry prices and get tighter spreads and lower commissions when you upgrade your trading tier."
+      },
+      {
+        "id": "4",
+        "title": "Expert support",
+        "text": "Receive best-in-className digital support as standard and unlock even better personal service with our premium trading tiers."
+      }
+    ]
+  },
+  {
+    "benefits": [
+      {
+        "id": "1",
+        "title": "Deposits and Withdrawals",
+        "text": "Signup and confirm your email address to get instant access to our Trader's Room and MT4 trading platform. (~30 seconds)."
+      },
+      {
+        "id": "2",
+        "title": "888x Leverage Trading",
+        "text": "Deposit USD or Bitcoin using multiple payment methods to fund your personal account. (~2 minutes)."
+      },
+      {
+        "id": "3",
+        "title": "Top-Tier Security",
+        "text": "Start trading multiple assets with leverage and the lowest fees."
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 .free-account {
   font-family: 'Open Sans', sans-serif;
-  height: 777px;
+  height: 747px;
 }
 
 .free-account__img {
@@ -17,11 +17,13 @@
   font-size: 44px;
   line-height: 60px;
   color: #000;
-  margin: 25px 0 64px;
+  margin: 45px auto 64px;
 }
 
 .free-account__item {
   padding-bottom: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .free-account__text {
@@ -61,6 +63,7 @@
     line-height: 50px;
     margin-bottom: 32px;
     text-align: center;
+    margin-top: 30px;
   }
 
   .free-account__text {
@@ -74,6 +77,11 @@
   .free-account__img {
     margin-top: 80px;
     margin-left: 0;
+  }
+
+  .free-account__list {
+    width: 60%;
+    margin-left: 23%;
   }
 }
 

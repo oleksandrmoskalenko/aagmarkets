@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../../css/reset.css'
 import './header-products.css'
 
@@ -14,8 +15,8 @@ const HeaderProducts = () => {
               <h3 className="header-products__subtitle">Access 182 FX pairs across majors, minors and exotics, plus spot
               metals, from only 0.4 pips</h3>
               <div className="header-products__wrapper d-flex">
-                <button className="header-products__button">Create Account</button>
-                <button className="header-products__button header-products__button--black">Try Free Demo</button>
+                <Link to="/registration"><button className="header-products__button">Create Account</button></Link>
+                <Link to="/registration"><button className="header-products__button header-products__button--black">Try Free Demo</button></Link>
               </div>
             </div>
           </div>

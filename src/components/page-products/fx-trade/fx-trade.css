@@ -1,5 +1,5 @@
 .fx-trade {
-  height: 466px;
+  height: 596px;
   color: #000;
   font-family: 'Open Sans', sans-serif;
 }
@@ -10,6 +10,7 @@
   line-height: 60px;
   text-align: center;
   padding-bottom: 58px;
+  margin-top: 40px;
 }
 
 .fx-trade-block {
@@ -81,6 +82,7 @@
 
   .fx-trade__title {
     font-size: 38px;
+    margin-top: 20px;
   }
 
   .fx-trade__subsubtitle {
@@ -104,6 +106,7 @@
 
   .fx-trade__title {
     font-size: 32px;
+    margin-top: 10px;
   }
 
   .fx-trade__subsubtitle {

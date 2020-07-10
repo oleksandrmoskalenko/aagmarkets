@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.insights {
+  height: 460px;
+  background: url('img/insights-bg.png') 100% 100% no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.insights__title {
+  width: 330px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  margin: 100px 0 20px 10px;
+}
+
+.insights__text {
+  width: 400px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 12px;
+}
+
+@media (max-width: 991px) {
+  .insights__title {
+    font-size: 38px;
+  }
+
+  .insights__text {
+    font-size: 14px;
+  }
+
+  .insights__button {
+    font-size: 14px;
+    width: 234px;
+  }
+}
+
+@media (max-width: 767px) {
+  .insights__title {
+    font-size: 32px;
+  }
+
+  .insights__text {
+    font-size: 12px;
+  }
+
+  .insights__button {
+    font-size: 13px;
+    width: 194px;
+  }
+}
+

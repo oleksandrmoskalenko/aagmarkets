@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../../css/reset.css'
 import './market-price.css'
+import { Link } from 'react-router-dom'
+import Nav from 'react-bootstrap/Nav'
 
 
 const MarketPrice = () => {
@@ -17,7 +19,7 @@ const MarketPrice = () => {
             <div className="market-price-block market-price-block--black">
               <h3 className="market-price__subtitle">Market price goes higher</h3>
               <svg className="market-price__svg" height="233" viewBox="0 0 307 233" width="307"
-                xmlns="http://www.w3.org/2000/svg" xmlnsХlink="http://www.w3.org/1999/xlink">
+                xmlns="http://www.w3.org/2000/svg">
                 <linearGradient id="a" x1="88.609674%" x2="88.609674%" y1="89.901393%" y2="0%">
                   <stop offset="0" stopOpacity="0" />
                   <stop offset=".803535947" stopColor="#01ab27" stopOpacity=".943506" />
@@ -31,8 +33,8 @@ const MarketPrice = () => {
                 <g fill="none" fillRule="evenodd" transform="">
                   <g fillRule="nonzero" transform="translate(0 28)">
                     <path d="m141.5 101.5 163-99v102h-163z" fill="url(#a)" />
-                    <path d="m141.5 101.5 163-99" stroke="#fff" strokeDashArray="2 2" strokeLineJoin="round" />
-                    <path d="m140.5 99.5 163-99" stroke="#1b87d7" strokeDashArray="2 2" strokeLineJoin="round" />
+                    <path d="m141.5 101.5 163-99" stroke="#fff" strokeDasharray="2 2" strokeLinejoin="round" />
+                    <path d="m140.5 99.5 163-99" stroke="#1b87d7" strokeDasharray="2 2" strokeLinejoin="round" />
                     <path d="m0 156 8-19 13 19 7.5-9.5 12-3 18.5-18.5 20.5-6.5 19.5 9 19-2.5 14.5-18 1.5 96-134 2z"
                       fill="url(#b)" />
                     <path d="m1 153.5 8-19 13 19 7.5-9.5 12-3 18.5-18.5 20.5-6.5 19.5 9 19-2.5 14.5-18"
@@ -66,7 +68,7 @@ const MarketPrice = () => {
                 Actively trade in most popular assets, profit from market relies and declines, or hedge your existing
                 holdings.
             </p>
-              <a href="#" className="market-price__link justify-content-center d-flex align-items-center">
+              <Nav.Link href="/homepage" className="market-price__link justify-content-center d-flex align-items-center p-0">
                 <p className="market-price__link-text">Learn more</p>
                 <svg className="market-price__symbol" width="24" height="24" stroke="#52AFEE" strokeWidth="1.1"
                   viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,15 +76,15 @@ const MarketPrice = () => {
                     d="M8.77249 5.19066L8.15377 5.80935C8.00734 5.95579 8.00734 6.19322 8.15377 6.33969L13.8006 12L8.15377 17.6603C8.00734 17.8068 8.00734 18.0442 8.15377 18.1907L8.77249 18.8094C8.91893 18.9558 9.15637 18.9558 9.30284 18.8094L15.847 12.2652C15.9935 12.1188 15.9935 11.8813 15.847 11.7348L9.30284 5.19066C9.15637 5.04419 8.91893 5.04419 8.77249 5.19066Z"
                     fill="#52AFEE" />
                 </svg>
-              </a>
-              <button className="market-price__button">Get Started</button>
+              </Nav.Link>
+              <Link to="/registration"><button className="market-price__button">Get Started</button></Link>
             </div>
           </div>
           <div className="col-12 col-md-6 order-md-2 col-lg-4 order-lg-0 market-price__wrapper">
             <div className="market-price-block market-price-block--black">
               <h3 className="market-price__subtitle">Market price goes lower</h3>
               <svg className="market-price__svg market-price__svg--lower" height="185" viewBox="0 0 317 185" width="317"
-                xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                xmlns="http://www.w3.org/2000/svg">
                 <linearGradient id="c" x1="50%" x2="50%" y1="92.558305%" y2="11.759624%">
                   <stop offset="0" stopColor="#052d3f" stopOpacity="0" />
                   <stop offset="1" stopColor="#01b529" />
@@ -98,9 +100,9 @@ const MarketPrice = () => {
                     <path
                       d="m0 172 8.03018868-19 13.04905662 19 7.5283019-9.5 12.045283-3 18.5698113-18.5 20.5773585-6.5 19.5735849 9 19.0716981-2.5 14.554717-18v-123h-133z"
                       fill="url(#d)" />
-                    <path d="m140.5 118.505 166.5-100.01" stroke="#007cc3" strokeDashArray="2 2"
-                      strokeLineJoin="round" />
-                    <path d="m139.5 116.505 167.5-100.005" stroke="#fff" strokeDashArray="2 2" strokeLineJoin="round" />
+                    <path d="m140.5 118.505 166.5-100.01" stroke="#007cc3" strokeDasharray="2 2"
+                      strokeLinejoin="round" />
+                    <path d="m139.5 116.505 167.5-100.005" stroke="#fff" strokeDasharray="2 2" strokeLinejoin="round" />
                     <path
                       d="m0 172 8.03018868-19 13.04905662 19 7.5283019-9.5 12.045283-3 18.5698113-18.5 20.5773585-6.5 19.5735849 9 19.0716981-2.5 14.554717-18"
                       stroke="#fff" />

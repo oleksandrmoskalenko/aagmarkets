@@ -20,6 +20,7 @@
   background: #fff;
   height: 251px;
   padding: 0 24px;
+  border-radius: 7px;
 }
 
 .feedback__text {
@@ -30,6 +31,7 @@
   margin-bottom: 23px;
   padding: 28px 0 23px;
   border-bottom: 1px solid #e7eef2;
+  text-align: left;
 }
 
 .feedback__author-img {
@@ -37,6 +39,7 @@
   width: 62px;
   height: 62px;
   margin-right: 12px;
+  border-radius: 50%;
 }
 
 .feedback__author-img--1 {
@@ -51,6 +54,10 @@
   background: url('./img/author-mg.jpg') 100% 100% no-repeat;
 }
 
+.feedback__author-img--4 {
+  background: url('./img/author-jw.jpg') 100% 100% no-repeat;
+}
+
 .feedback__author-name {
   font-weight: 700;
   font-size: 18px;
@@ -62,8 +69,9 @@
   font-size: 14px;
 }
 
-.slick-dots {
+.feedback .slick-dots {
   bottom: -90px;
+  padding-right: 8.5px;
 }
 
 .slick-dots li{
@@ -71,6 +79,7 @@
   border: 2px solid white;
   width: 12px;
   height: 12px;
+  margin-left: 17px;
 }
 
 li.slick-active{
@@ -95,6 +104,10 @@ li.slick-active{
   content: '\2039';
   font-size: 40px;
   opacity: 100%;
+}
+
+.feedback__slider {
+  width: 1140px;
 }
 
 

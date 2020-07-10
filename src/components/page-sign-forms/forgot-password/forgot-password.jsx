@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import { Link } from 'react-router-dom'
 
 import '../../../css/reset.css'
 import './forgot-password.css'
@@ -20,11 +21,13 @@ const ForgotPassword = () => {
                 </Form.Text>
                   <Form.Control type="email" placeholder="Enter email" />
                 </Form.Group>
-                <Button className="forgot-password__button" type="submit">
-                  Send
+                <Link to="/homepage">
+                  <Button className="w-100 forgot-password__button" type="submit">
+                    Send
               </Button>
+                </Link>
                 <p className="forgot-password__text text-right">
-                  Return to <a href="#" className="forgot-password__link">Login</a>
+                  Return to <Link to="/login" className="forgot-password__link">Login</Link>
                 </p>
               </Form>
             </div>

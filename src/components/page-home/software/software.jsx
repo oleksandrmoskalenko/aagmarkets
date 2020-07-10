@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../../css/reset.css'
 import './software.css'
 
@@ -50,7 +51,7 @@ const Software = () => {
         </div>
         <div className="row">
           <div className="col-12">
-            <button className="software__button">Get Started</button>
+            <Link to="/registration"><button className="software__button">Get Started</button></Link>
             <span className="software__text software__text--light">Open an account in 30 second</span>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .events {
-  height: 486px;
+  height: 606px;
   color: #000;
   font-family: 'Open Sans', sans-serif;
 }
@@ -9,7 +9,7 @@
   font-size: 44px;
   line-height: 60px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
   
 .events__text {
@@ -88,6 +88,7 @@
   
   .events__title {
     font-size: 38px;
+    margin-top: 20px;
   }
   
   .events__subsubtitle {

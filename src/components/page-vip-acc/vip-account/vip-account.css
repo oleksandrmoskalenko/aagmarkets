@@ -105,6 +105,10 @@
     font-size: 14px;
     margin: 18px 0 36px;
   }
+
+  .vip-account__wrapper {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {

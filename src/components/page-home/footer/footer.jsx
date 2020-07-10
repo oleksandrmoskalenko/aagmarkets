@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../../css/reset.css'
 import './footer.css'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -11,9 +12,9 @@ const Footer = () => {
           <div className="row">
             <div className="w-100 footer-block footer-block--logo d-flex justify-content-between flex-wrap">
               <div className="col-12 col-md-6 text-center text-md-left">
-                <a href="#" className="footer__link">
+                <Link to="/homepage" className="footer__link">
                   <img className="footer__img" src={require("./img/footer-logo.png")} alt="footer-logo" />
-                </a>
+                </Link>
               </div>
               <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
                 <div className="footer__wrapper d-flex align-items-center">
@@ -43,43 +44,43 @@ const Footer = () => {
             </div>
             <div className="col-12 col-md-6 mt-2">
               <ul className="footer__list d-flex">
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Terms of Business <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Privacy Policy <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Risk Warning <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Cookie Policy <span className="footer__symbol">|</span>
-                </span></a></li>
+                </span></Link></li>
               </ul>
               <ul className="footer__list d-flex">
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Leverage <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Long/Short Trading <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Refer &#38; Earn <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   About us <span className="footer__symbol">|</span>
-                </span></a></li>
+                </span></Link></li>
               </ul>
               <ul className="footer__list d-flex">
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Security <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Fees and Conditions <span className="footer__symbol">|</span>
-                </span></a></li>
-                <li className="footer__item"><a href="#" className="footer__link"><span className="footer__text footer__text--white">
+                </span></Link></li>
+                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Help Center
-                </span></a></li>
+                </span></Link></li>
               </ul>
             </div>
             <div className="col-12 col-md-3 mr-4 mr-md-0">

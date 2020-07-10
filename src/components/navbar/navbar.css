@@ -14,6 +14,12 @@
 
 .navigation__link {
   margin-right: 30px;
+  color: rgba(255,255,255,.8)
+}
+
+.navigation__link:hover {
+  text-decoration: none;
+  color:#fff;
 }
 
 .navigation__button {

@@ -50,11 +50,13 @@
   cursor: pointer;
 }
 
-.accounts__wrapper:hover>button {
+.accounts__wrapper:hover>.accounts__link>button {
   display: block;
 }
 
-
+.accounts__link:hover {
+  text-decoration: none;
+}
 
 .accounts__subsubtitle {
   font-size: 22px;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../../css/reset.css'
 import './header-accounts.css'
 
@@ -15,7 +16,7 @@ const HeaderAccounts = () => {
               account.</h3>
               <p className="header-accounts__text">Join AAG today and trade all our asset classNamees on industry-leading prices,
               through award-winning platforms and with expert personal service.</p>
-              <button className="header-accounts__button">Create Account</button>
+              <Link to="/registration"><button className="header-accounts__button">Create Account</button></Link>
             </div>
           </div>
         </div>

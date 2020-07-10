@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button'
 
 import '../../../css/reset.css'
 import './sign-up.css'
+import { Link } from 'react-router-dom'
 
 const SignUp = () => {
   return (
@@ -14,11 +15,11 @@ const SignUp = () => {
             <div className="w-100 sign-up__wrapper d-flex justify-content-center">
               <Form className="sign-up-form d-flex flex-column justify-content-around">
                 <h2 className="sign-up__title">Sign Up</h2>
-                <Form.Group controlId="formBasicPassword">
+                <Form.Group controlId="formFirstName">
                   <Form.Label className="font-weight-bold d-flex">First name</Form.Label>
                   <Form.Control type="text" placeholder="First name" />
                 </Form.Group>
-                <Form.Group controlId="formBasicPassword">
+                <Form.Group controlId="formLastName">
                   <Form.Label className="font-weight-bold d-flex">Last name</Form.Label>
                   <Form.Control type="text" placeholder="Last name" />
                 </Form.Group>
@@ -36,12 +37,10 @@ const SignUp = () => {
                 <Form.Group controlId="formBasicCheckbox">
                   <Form.Check type="checkbox" label="Remember me" />
                 </Form.Group>
-                <Button className="sign-up__button" type="submit">
+                <Link to="/homepage"><Button className="w-100 sign-up__button" type="submit">
                   Submit
-              </Button>
-                <p className="sign-up__text text-right">
-                  Forgot <a href="#" className="sign-up__link">password?</a>
-                </p>
+                </Button>
+                </Link>
               </Form>
             </div>
           </div>

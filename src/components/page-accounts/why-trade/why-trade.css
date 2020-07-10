@@ -28,6 +28,29 @@
   padding: 34px 0 8px;
 }
 
+.why-trade__img {
+  width: 55px;
+  height: 55px;
+}
+
+.why-trade__img--1 {
+  background: url('./img/global-market.png');
+}
+
+.why-trade__img--2 {
+  background: url('./img/powerful-platforms.png');
+}
+
+.why-trade__img--3 {
+  background: url('./img/industry-leading.png');
+}
+
+.why-trade__img--4 {
+  background: url('./img/export-support.png');
+}
+
+
+
 .why-trade__text {
   font-size: 14px;
   line-height: 21px;

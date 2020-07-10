@@ -8,7 +8,7 @@ const FxPrices = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="fx-prices-block">
+            <div className="fx-prices-block text-left">
               <h2 className="fx-prices__title">Receive our very best</h2>
               <p className="fx-prices__text">Receive lower prices as you trade more with our Platinum and VIP account tiers.
             </p>
