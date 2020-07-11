@@ -4,7 +4,7 @@ import '../../../css/reset.css'
 import './forex-spreads.css'
 
 
-const ForexSpreads = () => {
+const ForexSpreads = ({ forexSpreads }) => {
   return (
     <section className="forex-spreads" id="forex-spreads">
       <div className="container">
@@ -24,30 +24,16 @@ const ForexSpreads = () => {
                   <th className="forex-spreads__item forex-spreads__item-title">Platinum</th>
                   <th className="forex-spreads__item forex-spreads__item-title">VIP</th>
                 </tr>
-                <tr>
-                  <td className="pl-4 forex-spreads__item">EUR USD</td>
-                  <td className="forex-spreads__item">0.6</td>
-                  <td className="forex-spreads__item">0.5</td>
-                  <td className="forex-spreads__item">0.4</td>
-                </tr>
-                <tr>
-                  <td className="pl-4 forex-spreads__item">GBP USD</td>
-                  <td className="forex-spreads__item">0.7</td>
-                  <td className="forex-spreads__item">0.6</td>
-                  <td className="forex-spreads__item">0.4</td>
-                </tr>
-                <tr>
-                  <td className="pl-4 forex-spreads__item">EUR JPY</td>
-                  <td className="forex-spreads__item">0.9</td>
-                  <td className="forex-spreads__item">0.8</td>
-                  <td className="forex-spreads__item">0.6</td>
-                </tr>
-                <tr>
-                  <td className="pl-4 forex-spreads__item">AUD USD</td>
-                  <td className="forex-spreads__item">0.4</td>
-                  <td className="forex-spreads__item">0.3</td>
-                  <td className="forex-spreads__item">0.3</td>
-                </tr>
+                {forexSpreads[0].cells.map(el => {
+                  return (
+                    <tr>
+                      <td className={`pl-4 ${forexSpreads[0].clName}`} key={el.id}>{el.c1}</td>
+                      <td className={forexSpreads[0].clName} key={el.id}>{el.c2}</td>
+                      <td className={forexSpreads[0].clName} key={el.id}>{el.c3}</td>
+                      <td className={forexSpreads[0].clName} key={el.id}>{el.c4}</td>
+                    </tr>
+                  )
+                })}
                 <tr>
                   <td className="forex-spreads__item"></td>
                   <td className="forex-spreads__item">

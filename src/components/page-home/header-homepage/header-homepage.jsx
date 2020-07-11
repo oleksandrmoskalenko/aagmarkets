@@ -23,7 +23,7 @@ export default class HeaderHomepage extends Component {
           <Slider {...settings}>
             {headerHomepage.map(el => {
               return (
-                <div className="row d-flex">
+                <div className="row d-flex" key={el.id}>
                   <div className="col-6 header-homepage-block">
                     <h2 className="header-homepage__title">{el.title}</h2>
                     <h3 className="header-homepage__subtitle">{el.subtitle}</h3>

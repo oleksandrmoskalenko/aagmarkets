@@ -23,7 +23,7 @@ const SignIn = () => {
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label className="font-weight-bold d-flex">Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                  <Form.Control type="password" placeholder="Password" minLength="8" required />
                 </Form.Group>
                 <Form.Group controlId="formBasicCheckbox">
                   <Form.Check type="checkbox" label="Remember me" />

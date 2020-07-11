@@ -27,7 +27,7 @@ export default class Feedback extends Component {
           </div>
           <Slider className="feedback__slider" {...settings}>
             {feedback.map(el => {
-              return (<div className="col-12">
+              return (<div className="col-12" key={el.id}>
                 <article className="feedback__item">
                   <p className="feedback__text">{el.text}</p>
                   <div className="feedback__author d-flex">
@@ -41,7 +41,6 @@ export default class Feedback extends Component {
               </div>)
             })}
           </Slider>
-
         </div>
       </section>
     )

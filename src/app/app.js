@@ -48,7 +48,8 @@ class App extends Component {
       feedback = data[5].feedback,
       startTrading = data[6].startTrading,
       whyTrade = data[7].whyTrade,
-      benefits = data[8].benefits
+      benefits = data[8].benefits,
+      forexSpreads = data[9].forexSpreads
 
     return (
       <div className="App">
@@ -102,7 +103,7 @@ class App extends Component {
               <div className="products">
                 <HeaderProducts />
                 <FxTrade fxTrade={fxTrade} />
-                <ForexSpreads />
+                <ForexSpreads forexSpreads={forexSpreads} />
                 <FxPrices />
                 <Questions />
                 <Footer />

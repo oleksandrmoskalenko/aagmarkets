@@ -198,5 +198,42 @@
         "text": "Start trading multiple assets with leverage and the lowest fees."
       }
     ]
+  },
+  {
+    "forexSpreads": [
+      {
+        "clName": "forex-spreads__item",
+        "cells": [
+          {
+            "c1": "EUR USD",
+            "c2": "0.6",
+            "c3": "0.5",
+            "c4": "0.4",
+            "id": "1"
+          },
+          {
+            "c1": "GBP USD",
+            "c2": "0.7",
+            "c3": "0.6",
+            "c4": "0.4",
+            "id": "2"
+          },
+          {
+            "c1": "EUR JPY",
+            "c2": "0.9",
+            "c3": "0.8",
+            "c4": "0.6",
+            "id": "3"
+          },
+          {
+            "c1": "AUD USD",
+            "c2": "0.4",
+            "c3": "0.3",
+            "c4": "0.3",
+            "id": "4"
+          }
+        ]
+      }
+    ]
   }
 ]
