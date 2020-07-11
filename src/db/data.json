@@ -202,37 +202,100 @@
   {
     "forexSpreads": [
       {
-        "clName": "forex-spreads__item",
-        "cells": [
-          {
-            "c1": "EUR USD",
-            "c2": "0.6",
-            "c3": "0.5",
-            "c4": "0.4",
-            "id": "1"
-          },
-          {
-            "c1": "GBP USD",
-            "c2": "0.7",
-            "c3": "0.6",
-            "c4": "0.4",
-            "id": "2"
-          },
-          {
-            "c1": "EUR JPY",
-            "c2": "0.9",
-            "c3": "0.8",
-            "c4": "0.6",
-            "id": "3"
-          },
-          {
-            "c1": "AUD USD",
-            "c2": "0.4",
-            "c3": "0.3",
-            "c4": "0.3",
-            "id": "4"
-          }
-        ]
+        "c1": "EUR USD",
+        "c2": "0.6",
+        "c3": "0.5",
+        "c4": "0.4",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "GBP USD",
+        "c2": "0.7",
+        "c3": "0.6",
+        "c4": "0.4",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR JPY",
+        "c2": "0.9",
+        "c3": "0.8",
+        "c4": "0.6",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "AUD USD",
+        "c2": "0.4",
+        "c3": "0.3",
+        "c4": "0.3",
+        "clName": "forex-spreads__item"
+      }
+    ]
+  },
+  {
+    "tradeAssets": [
+      {
+        "instrument": "GOLD",
+        "leverage": "888X",
+        "clName": "trade-assets__item"
+      },
+      {
+        "instrument": "Bitcoin",
+        "leverage": "10X",
+        "clName": "trade-assets__item"
+      },
+      {
+        "instrument": "EUR/USD",
+        "leverage": "888X",
+        "clName": "trade-assets__item"
+      },
+      {
+        "instrument": "HSI",
+        "leverage": "888X",
+        "clName": "trade-assets__item"
+      },
+      {
+        "instrument": "CRUDE OIL",
+        "leverage": "200X",
+        "clName": "trade-assets__item"
+      }
+    ]
+  },
+  {
+    "signUp": [
+      {
+        "id": "formFirstName",
+        "clName": "font-weight-bold d-flex",
+        "text": "First name",
+        "type": "text",
+        "placeholder": "First name"
+      },
+      {
+        "id": "formLastName",
+        "clName": "font-weight-bold d-flex",
+        "text": "Last name",
+        "type": "text",
+        "placeholder": "Last name"
+      },
+      {
+        "id": "formBasicEmail",
+        "clName": "font-weight-bold d-flex",
+        "text": "Email address",
+        "type": "email",
+        "placeholder": "Enter email"
+      },
+      {
+        "id": "formBasicPassword",
+        "clName": "font-weight-bold d-flex",
+        "text": "Password",
+        "type": "password",
+        "placeholder": "Password"
+      },
+      {
+        "id": "repeatBasicPassword",
+        "clName": "font-weight-bold d-flex",
+        "text": "Repeat password",
+        "type": "password",
+        "placeholder": "Password"
       }
     ]
   }

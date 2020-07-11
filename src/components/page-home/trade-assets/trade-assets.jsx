@@ -4,7 +4,7 @@ import './trade-assets.css'
 import Nav from 'react-bootstrap/Nav'
 
 
-const TradeAssets = () => {
+const TradeAssets = ({ tradeAssets }) => {
   return (
     <section className="trade-assets" id="trade-assets">
       <div className="container">
@@ -25,26 +25,14 @@ const TradeAssets = () => {
                     <th className="trade-assets__item-title">Instrument</th>
                     <th className="trade-assets__item-title">Leverage</th>
                   </tr>
-                  <tr>
-                    <td className="trade-assets__item">GOLD</td>
-                    <td className="trade-assets__item">888X</td>
-                  </tr>
-                  <tr>
-                    <td className="trade-assets__item trade-assets__item--grey">Bitcoin</td>
-                    <td className="trade-assets__item trade-assets__item--grey">10X</td>
-                  </tr>
-                  <tr>
-                    <td className="trade-assets__item">EUR/USD</td>
-                    <td className="trade-assets__item">888X</td>
-                  </tr>
-                  <tr>
-                    <td className="trade-assets__item trade-assets__item--grey">HSI</td>
-                    <td className="trade-assets__item trade-assets__item--grey">888X</td>
-                  </tr>
-                  <tr>
-                    <td className="trade-assets__item">CRUDE OIL</td>
-                    <td className="trade-assets__item">200X</td>
-                  </tr>
+                  {tradeAssets.map((el, i) => {
+                    return (
+                      <tr key={i}>
+                        <td className={el.clName}>{el.instrument}</td>
+                        <td className={el.clName}>{el.leverage}</td>
+                      </tr>
+                    )
+                  })}
                 </tbody>
               </table>
               <Nav.Link gref="/homepage" className="trade-assets__link justify-content-center d-flex align-items-center">

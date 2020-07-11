@@ -6,7 +6,7 @@ import '../../../css/reset.css'
 import './sign-up.css'
 import { Link } from 'react-router-dom'
 
-const SignUp = () => {
+const SignUp = ({ signUp }) => {
   return (
     <section className="sign-up" id="sign-up">
       <div className="h-100 container">
@@ -15,25 +15,14 @@ const SignUp = () => {
             <div className="w-100 sign-up__wrapper d-flex justify-content-center">
               <Form className="sign-up-form d-flex flex-column justify-content-around">
                 <h2 className="sign-up__title">Sign Up</h2>
-                <Form.Group controlId="formFirstName">
-                  <Form.Label className="font-weight-bold d-flex">First name</Form.Label>
-                  <Form.Control type="text" placeholder="First name" />
-                </Form.Group>
-                <Form.Group controlId="formLastName">
-                  <Form.Label className="font-weight-bold d-flex">Last name</Form.Label>
-                  <Form.Control type="text" placeholder="Last name" />
-                </Form.Group>
-                <Form.Group controlId="formBasicEmail">
-                  <Form.Label className="font-weight-bold d-flex">Email address</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
-                  <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                </Form.Text>
-                </Form.Group>
-                <Form.Group controlId="formBasicPassword">
-                  <Form.Label className="font-weight-bold d-flex">Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
+                {signUp.map((el, i) => {
+                  return (
+                    <Form.Group controlId={el.id} key={i}>
+                      <Form.Label className={el.clName}>{el.text}</Form.Label>
+                      <Form.Control type={el.type} placeholder={el.placeholder} />
+                    </Form.Group>
+                  )
+                })}
                 <Form.Group controlId="formBasicCheckbox">
                   <Form.Check type="checkbox" label="Remember me" />
                 </Form.Group>

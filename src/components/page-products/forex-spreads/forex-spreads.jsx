@@ -24,13 +24,13 @@ const ForexSpreads = ({ forexSpreads }) => {
                   <th className="forex-spreads__item forex-spreads__item-title">Platinum</th>
                   <th className="forex-spreads__item forex-spreads__item-title">VIP</th>
                 </tr>
-                {forexSpreads[0].cells.map(el => {
+                {forexSpreads.map((el, i) => {
                   return (
-                    <tr>
-                      <td className={`pl-4 ${forexSpreads[0].clName}`} key={el.id}>{el.c1}</td>
-                      <td className={forexSpreads[0].clName} key={el.id}>{el.c2}</td>
-                      <td className={forexSpreads[0].clName} key={el.id}>{el.c3}</td>
-                      <td className={forexSpreads[0].clName} key={el.id}>{el.c4}</td>
+                    <tr key={i}>
+                      <td className={`pl-4 ${el.clName}`}>{el.c1}</td>
+                      <td className={el.clName}>{el.c2}</td>
+                      <td className={el.clName}>{el.c3}</td>
+                      <td className={el.clName}>{el.c4}</td>
                     </tr>
                   )
                 })}

@@ -86,7 +86,7 @@
   padding-left: 15px;
 }
 
-.trade-assets__item--grey {
+.trade-assets__tbody>tr:nth-of-type(2n+1)>.trade-assets__item{
   background: #fdfefe;
 }
 
