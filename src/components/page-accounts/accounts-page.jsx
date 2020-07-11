@@ -7,15 +7,15 @@ import CorpAccount from './corp-account/corp-account'
 import Questions from './questions/questions'
 import Footer from '../page-home/footer/footer'
 
-const AccountsPage = ({ whyTrade }) => {
+const AccountsPage = ({ whyTrade, questions, accounts }) => {
   return (
     <div className="accounts">
       <HeaderAccounts />
       <WhyTrade whyTrade={whyTrade} />
-      <Accounts />
+      <Accounts accounts={accounts} />
       <Tiers />
       <CorpAccount />
-      <Questions />
+      <Questions questions={questions} />
       <Footer />
     </div>
   )

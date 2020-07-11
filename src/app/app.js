@@ -26,7 +26,9 @@ class App extends Component {
       benefits = data[8].benefits,
       forexSpreads = data[9].forexSpreads,
       tradeAssets = data[10].tradeAssets,
-      signUp = data[11].signUp
+      signUp = data[11].signUp,
+      questions = data[12].questions,
+      accounts = data[13].accounts
 
     return (
       <div className="App">
@@ -40,13 +42,13 @@ class App extends Component {
               <Homepage headerHomepage={headerHomepage} tradeAssets={tradeAssets} benefits={benefits} feedback={feedback} startTrading={startTrading} />
             } />
             <Route path="/accounts" render={() =>
-              <AccountsPage whyTrade={whyTrade} />
+              <AccountsPage whyTrade={whyTrade} questions={questions} accounts={accounts} />
             } />
             <Route path="/vip-accounts/" render={() =>
-              <VipAccountsPage vipAdvantages={vipAdvantages} clientSupport={clientSupport} eventsBlock={eventsBlock} />
+              <VipAccountsPage vipAdvantages={vipAdvantages} clientSupport={clientSupport} eventsBlock={eventsBlock} questions={questions} />
             } />
             <Route path="/products/" render={() =>
-              <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} />
+              <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} questions={questions} />
             } />
             <Route path="/login" render={() =>
               <div className="login">

@@ -3,7 +3,7 @@
 }
 
 .questions {
-  height: 862px;
+  height: 910px;
   font-family: 'Open Sans', sans-serif;
   background: #fff;
   position: relative;
@@ -18,31 +18,54 @@
 
 .questions__text {
   font-size: 16px;
+  margin-bottom: 0;
 }
 
 .questions__text--blue {
   color: #52afee;
 }
 
+.questions__card-text {
+  font-size: 16px;
+  min-height: 76px!important;
+  padding-top: 0!important;
+  text-align: left;
+}
+
 .questions-block {
   margin-top: 46px;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 4px!important;
+}
+
+.questions__card {
+  box-shadow: 2px 2px 4px #c4c4c4, -2px -2px 4px #c4c4c4;
+  margin-bottom: 10px;
+  border-radius: 4px;
 }
 
 .questions__item {
+  background: #fff!important;
   height: 76px;
-  background: #fff;
+  border-bottom:0!important;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 2px 2px 4px #c4c4c4, -2px -2px 4px #c4c4c4;
-  border-radius: 4px;
-  padding: 0 18px;
-  margin-bottom: 11px;
+}
+
+.questions__icon {
+  width: 26px;
+  height: 26px;
+  background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fillRule='evenodd' clipRule='evenodd' d='M15.75 8C15.75 12.2812 12.2812 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.71875 3.71875 0.25 8 0.25C12.2812 0.25 15.75 3.71875 15.75 8ZM8.53125 11.5594L12.7656 7.325C13.0594 7.03125 13.0594 6.55625 12.7656 6.26562L12.2344 5.73438C11.9406 5.44062 11.4656 5.44062 11.175 5.73438L8 8.90938L4.825 5.73438C4.53125 5.44062 4.05625 5.44062 3.76562 5.73438L3.23438 6.26562C2.94062 6.55937 2.94062 7.03437 3.23438 7.325L7.46875 11.5594C7.7625 11.8531 8.2375 11.8531 8.53125 11.5594Z' fill='%2352AFEE' /%3E%3C/svg%3E");
 }
 
 .questions__subsubtitle {
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 .questions__link:hover {

@@ -74,16 +74,20 @@
   display: flex;
 }
 
-
 .accounts__icon {
   margin-top: 0px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 0;
 }
+
 
 .accounts__text {
   font-size: 16px;
   line-height: 30px;
   display: block;
-  margin-left: 10px;
+  margin-left: 8px;
   margin-bottom: 0;
 }
 
@@ -94,12 +98,11 @@
 }
 
 .accounts__text--minus {
-  margin-left: 6px;
   color: #bdbdbd;
 }
 
 .accounts__icon--minus {
-  margin-left: -4px;
+  left:-4px;
 }
 
 @media (max-width: 1199px) {
