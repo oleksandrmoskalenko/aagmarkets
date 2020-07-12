@@ -58,6 +58,10 @@
 }
 
 @media (max-width: 991px) {
+  .why-trade {
+    height: 700px;
+  }
+  
   .why-trade__title {
     padding-top: 70px;
     font-size: 38px;
@@ -69,6 +73,10 @@
 }
 
 @media (max-width: 767px) {
+  .why-trade {
+    height: 680px;
+  }
+  
   .why-trade__title {
     padding: 40px 0;
     font-size: 32px;

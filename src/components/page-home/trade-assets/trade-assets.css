@@ -28,6 +28,7 @@
 
 .trade-assets__text {
   font-size: 16px;
+  margin-bottom: 0;
 }
 
 .trade-assets__text--grey {
@@ -98,17 +99,17 @@
 
 @media (max-width: 991px) {
   .trade-assets {
-    height: 760px;
+    height: 820px;
   }
 
   .trade-assets-block {
-    height: 340px;
+    height: 310px;
     margin-top: 20px;
     text-align: center;
   }
 
   .trade-assets-block--shadow {
-    height: 380px;
+    height: 400px;
   }
 
   .trade-assets__title {
@@ -119,11 +120,23 @@
   .trade-assets__text {
     font-size: 14px;
   }
+
+  .trade-assets__text--grey {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 767px) {
+  .trade-assets {
+    height: 800px;
+  }
+  
   .trade-assets-block {
-    height: 330px;
+    height: 300px;
+  }
+
+  .trade-assets-block--shadow {
+    height: 400px;
   }
 
   .trade-assets__title {

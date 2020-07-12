@@ -19,6 +19,7 @@
 
 .client-support__img {
   width: 100%;
+  border-radius: 7px 7px 0 0;
 }
 
 .client-support__text {
@@ -39,7 +40,7 @@
   height: 242px;
   padding: 20px;
   border: 1px solid #E7EEF2;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .client-support__subsubtitle {
@@ -64,7 +65,7 @@
 
 @media (max-width: 991px) {
   .client-support {
-    height: 1630px;
+    height: 1700px;
   }
 
   .client-support-block {
@@ -88,6 +89,10 @@
 }
 
 @media (max-width: 767px) {
+  .client-support {
+    height: 1610px;
+  }
+
   .client-support-block {
     width: 60%;
     margin-left: 20%;

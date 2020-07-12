@@ -57,6 +57,10 @@
 }
 
 @media (max-width: 991px) {
+  .free-account{
+    height: 940px;
+  }
+  
   .free-account__title {
     font-size: 38px;
     width: 100%;
@@ -75,7 +79,7 @@
   }
 
   .free-account__img {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 0;
   }
 
@@ -93,6 +97,10 @@
 }
 
 @media (max-width: 767px) {
+  .free-account {
+    height: 760px;
+  }
+  
   .free-account__title {
     font-size: 32px;
     margin-top: 15px;

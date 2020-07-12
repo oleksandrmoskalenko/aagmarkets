@@ -27,12 +27,13 @@
 }
 
 @media (max-width: 767px) {
-
   .payment {
     height: 120px;
   }
 
   .payment__block {
     text-align: center;
+    margin-top: 10px;
   }
 }
+

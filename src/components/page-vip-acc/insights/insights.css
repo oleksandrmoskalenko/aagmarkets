@@ -41,8 +41,13 @@
 }
 
 @media (max-width: 767px) {
+  .insights {
+    height: 380px;
+  }
+
   .insights__title {
     font-size: 32px;
+    margin-top: 60px;
   }
 
   .insights__text {

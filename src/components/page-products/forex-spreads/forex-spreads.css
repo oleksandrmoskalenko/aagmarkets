@@ -48,6 +48,10 @@
 }
 
 @media (max-width: 991px) {
+  .forex-spreads {
+    height: 560px;
+  }
+  
   .forex-spreads__title {
     font-size: 38px;
     margin-top: 20px;
@@ -71,7 +75,7 @@
 }
 
 @media (max-width: 767px) {
-  .questions__title {
+  .forex-spreads__title {
     font-size: 32px;
     margin-top: 10px;
   }

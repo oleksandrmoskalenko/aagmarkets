@@ -104,7 +104,7 @@
       },
       {
         "id": "4",
-        "title": "Chef’s tables",
+        "title": "Hospitality",
         "text": "Reserve the best seats at the biggest entertainment and sporting events."
       }
     ]
@@ -306,23 +306,23 @@
         "answer": "You can either visit our Trading Academy here, or email us at support@aagmarkets.com and we will teach you how to trade. Our senior account managers will help you through the entire learning process."
       },
       {
-        "question": "How do I learn how to trade?",
+        "question": "What commissions does AAG charge?",
         "answer": "You can either visit our Trading Academy here, or email us at support@aagmarkets.com and we will teach you how to trade. Our senior account managers will help you through the entire learning process."
       },
       {
-        "question": "How do I learn how to trade?",
+        "question": "How do I open an account?",
         "answer": "You can either visit our Trading Academy here, or email us at support@aagmarkets.com and we will teach you how to trade. Our senior account managers will help you through the entire learning process."
       },
       {
-        "question": "How do I learn how to trade?",
+        "question": "Can I hold multiple currencies in a AAG account?",
         "answer": "You can either visit our Trading Academy here, or email us at support@aagmarkets.com and we will teach you how to trade. Our senior account managers will help you through the entire learning process."
       },
       {
-        "question": "How do I learn how to trade?",
+        "question": "What markets can I access?",
         "answer": "You can either visit our Trading Academy here, or email us at support@aagmarkets.com and we will teach you how to trade. Our senior account managers will help you through the entire learning process."
       },
       {
-        "question": "How do I learn how to trade?",
+        "question": "How do I transfer stocks to AAG?",
         "answer": "You can either visit our Trading Academy here, or email us at support@aagmarkets.com and we will teach you how to trade. Our senior account managers will help you through the entire learning process."
       }
     ]
@@ -396,6 +396,38 @@
         "text5": "Direct access to our trading experts, 24/5",
         "text6": "1:1 AAG access",
         "text7": "Exclusive event invitations"
+      }
+    ]
+  },
+  {
+    "contactUs": [
+      {
+        "id": "formFirstName",
+        "clName": "font-weight-bold d-flex",
+        "text": "First name",
+        "type": "text",
+        "placeholder": "First name"
+      },
+      {
+        "id": "formLastName",
+        "clName": "font-weight-bold d-flex",
+        "text": "Last name",
+        "type": "text",
+        "placeholder": "Last name"
+      },
+      {
+        "id": "formBasicEmail",
+        "clName": "font-weight-bold d-flex",
+        "text": "Email address",
+        "type": "email",
+        "placeholder": "Enter email"
+      },
+      {
+        "id": "formTextArea",
+        "clName": "font-weight-bold d-flex",
+        "text": "Subject",
+        "type": "text",
+        "placeholder": "Write your text"
       }
     ]
   }

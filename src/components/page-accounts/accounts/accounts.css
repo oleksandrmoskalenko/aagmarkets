@@ -82,7 +82,6 @@
   top: 0;
 }
 
-
 .accounts__text {
   font-size: 16px;
   line-height: 30px;
@@ -113,21 +112,19 @@
 
 @media (max-width: 991px) {
   .accounts {
-    height: 1300px;
+    height: 2000px;
   }
 
   .accounts-block {
-    width: 65%;
-  }
-
-  .accounts-block {
-    height: 440px;
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
 @media (max-width: 767px) {
   .accounts-block {
-    height: 550px;
+    width: 60%;
+    margin-left: 20%;
   }
 }
 

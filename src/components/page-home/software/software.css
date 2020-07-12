@@ -72,6 +72,10 @@
 }
 
 @media (max-width: 991px) {
+  .software {
+    height: 1020px;
+  }
+  
   .software__img {
     width: 690px;
     height: 397px;
@@ -92,14 +96,14 @@
 }
 
 @media (max-width: 767px) {
+  .software {
+    height: 1120px;
+  }
+
   .software__img {
     width: 510px;
     height: 293px;
     margin-left: calc(50% - 255px);
-  }
-
-  .software {
-    height: 1310px;
   }
 
   .software__title {

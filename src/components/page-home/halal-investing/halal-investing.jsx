@@ -17,7 +17,7 @@ const HalalInvesting = () => {
           <div className="col-12 offset-lg-1 col-lg-6 d-flex flex-column">
             <h2 className="halal-investing__title text-lg-left">Halal Investing.
             Shariah Compliant</h2>
-            <p className="halal-investing__text">We ensure that all your trades are in compliance with
+            <p className="halal-investing__text text-lg-left">We ensure that all your trades are in compliance with
             IslamicEthics.</p>
             <div className="halal-invesing__wrapper d-flex flex-column align-self-center align-self-lg-start">
               <Link to="/registration"><button className="halal-investing__button">View Certificate</button></Link>

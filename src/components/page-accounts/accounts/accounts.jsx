@@ -12,7 +12,7 @@ const Accounts = ({ accounts }) => {
           {accounts.map(el => {
             return (
               <div className="col-12 col-lg-4 d-flex justify-content-center" key={el.type}>
-                <div className="accounts__wrapper">
+                <div className="w-100 accounts__wrapper">
                   <div className="accounts-block text-center mb-5">
                     <div className="accounts__subsubtitle text-uppercase">{el.type}</div>
                     <div className="accounts__text accounts__text--small">{el.fund}</div>

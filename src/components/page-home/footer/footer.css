@@ -65,6 +65,10 @@
   .footer {
     height: 860px;
   }
+
+  .footer__text {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 767px) {

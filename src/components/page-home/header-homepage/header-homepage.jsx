@@ -24,13 +24,13 @@ export default class HeaderHomepage extends Component {
             {headerHomepage.map(el => {
               return (
                 <div className="row d-flex" key={el.id}>
-                  <div className="col-6 header-homepage-block">
+                  <div className="col-5 col-lg-6 header-homepage-block">
                     <h2 className="header-homepage__title">{el.title}</h2>
                     <h3 className="header-homepage__subtitle">{el.subtitle}</h3>
                     <Link to="/registration"><button className="header-homepage__button">Open Free Account</button></Link>
                     <p className="header-homepage__text">It only takes 30 seconds</p>
                   </div>
-                  <div className="col-6 header-homepage-block">
+                  <div className="col-7 col-lg-6 header-homepage-block">
                     <div className={`header-homepage__img header-homepage__img--${el.id}`}></div>
                   </div>
                 </div>

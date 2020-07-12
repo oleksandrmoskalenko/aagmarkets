@@ -7,7 +7,7 @@ import VipAdvantagesBlock from './vip-advantages-block'
 
 const VipAdvantages = ({ vipAdvantages }) => {
   return (
-    <section className="vip-advantages position-absolute" id="vip-advantages">
+    <section className="vip-advantages position-relative" id="vip-advantages">
       <div className="container">
         <div className="row">
           <div className="col-12">

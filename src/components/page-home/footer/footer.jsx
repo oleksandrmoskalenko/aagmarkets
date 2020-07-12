@@ -42,7 +42,7 @@ const Footer = () => {
             and the Grenadines
           </p>
             </div>
-            <div className="col-12 col-md-6 mt-2">
+            <div className="col-12 col-md-7 mt-2 mt-md-5 mt-lg-4 mt-xl-3">
               <ul className="footer__list d-flex">
                 <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
                   Terms of Business <span className="footer__symbol">|</span>
@@ -83,7 +83,7 @@ const Footer = () => {
                 </span></Link></li>
               </ul>
             </div>
-            <div className="col-12 col-md-3 mr-4 mr-md-0">
+            <div className="col-12 col-md-2 mr-4 mr-md-0">
               <div
                 className="w-100 h-100 footer__block d-flex justify-content-center justify-content-md-end align-items-center">
                 <a className="footer__link" href="https://facebook.com/">

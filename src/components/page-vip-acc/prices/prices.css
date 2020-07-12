@@ -47,8 +47,16 @@
 }
 
 @media (max-width: 1199px) {
+  .prices {
+    height: 850px;
+  }
+  
   .prices__img {
     margin-top: 50px;
+  }
+
+  .prices__title {
+    margin-top: 60px;
   }
 }
 
@@ -64,6 +72,10 @@
 }
 
 @media (max-width: 767px) {
+  .prices {
+    height: 670px;
+  }
+
   .prices__title {
     font-size: 32px;
     margin-top: 25px;
@@ -76,6 +88,10 @@
   .prices__img {
     width: 483px;
     height: 308px;
+  }
+
+  .prices__button {
+    margin-top: 10px;
   }
 }
 

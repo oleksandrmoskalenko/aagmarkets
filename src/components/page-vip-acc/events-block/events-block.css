@@ -97,16 +97,21 @@
   
   .events__text {
     font-size: 12px;
+    padding-bottom: 30px;
   }
   
   .events-block {
     margin-bottom: 40px;
   }
+
+  .events__text--small {
+    padding-bottom: 0;
+  }
 }
   
 @media (max-width: 767px) {
   .events {
-    height: 840px;
+    height: 850px;
   }
   
   .events__title {
@@ -120,6 +125,7 @@
   
   .events__text {
     font-size: 11px;
+    padding: 0;
   }
   
   .events__wrapper {

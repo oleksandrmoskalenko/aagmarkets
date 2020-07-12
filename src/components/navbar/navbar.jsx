@@ -10,7 +10,7 @@ const BootstrapNavbar = () => {
     <div className="navigation fixed-top">
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 navigation__small">
             <Navbar variant="dark" expand="lg">
               <Navbar.Brand href="/homepage">
                 <svg className="navigation__logo" width="147" height="64" viewBox="0 0 147 64" fill="none"

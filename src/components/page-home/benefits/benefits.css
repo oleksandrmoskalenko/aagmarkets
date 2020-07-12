@@ -59,18 +59,26 @@
   .benefits__icon {
     margin-top: 93px;
   }
+
+  .benefits__subsubtitle {
+    height: 54px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
+  .benefits {
+    height: 380px;}
+
+  
   .benefits__icon {
     margin: 73px 0 15px;
   }
   
   .benefits__subsubtitle {
     font-size: 14px;
-    height: 100px;
-    display: flex;
-    align-items: center;
+    height: 60px;
     margin-bottom: 0;
   }
 

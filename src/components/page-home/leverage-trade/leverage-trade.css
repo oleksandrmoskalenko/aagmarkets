@@ -84,6 +84,10 @@
 }
 
 @media (max-width: 1199px) {
+  .leverage-trade {
+    height: 830px;
+  }
+
   .leverage-trade__img {
     width: 419px;
     height: 281px;
@@ -92,7 +96,7 @@
 
 @media (max-width: 991px) {
   .leverage-trade {
-    height: 900px;
+    height: 970px;
   }
 
   .leverage-trade-block {
@@ -127,6 +131,10 @@
 }
 
 @media (max-width: 767px) {
+  .leverage-trade {
+    height: 950px;
+  }
+  
   .leverage-trade__title {
     font-size: 32px;
   }
