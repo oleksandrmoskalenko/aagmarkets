@@ -128,3 +128,33 @@
   }
 }
 
+@media (max-width: 575px) {
+  .accounts__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .accounts-block {
+    width: 80%;
+    margin-left: 10%;
+    height: 450px;
+  }
+}
+
+@media (max-width: 465px) {
+  .accounts__text {
+    font-size: 13px;
+  }
+
+  .accounts-block {
+    height: 510px;
+  }
+}
+
+@media (max-width: 400px) {
+  .accounts-block {
+    height: 570px;
+  }
+}
+

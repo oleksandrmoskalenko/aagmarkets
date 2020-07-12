@@ -15,9 +15,9 @@ const HeaderVipAcc = () => {
               <h3 className="header-vip-acc__subtitle">Become a VIP and receive our very best prices, priority support and
               exclusive event invitations.</h3>
               <p className="header-vip-acc__text">Minimum funding USD 1,000,000</p>
-              <div className="header-vip-acc__wrapper d-flex">
-                <Link to="/registration"><button className="header-vip-acc__button">Open Personal VIP Account</button></Link>
-                <Link to="/registration"><button className="header-vip-acc__button header-vip-acc__button--black">Open Corporate VIP Account</button></Link>
+              <div className="header-vip-acc__wrapper d-flex flex-wrap flex-sm-nowrap text-left">
+                <Link to="/registration" className="header-vip-acc__link"><button className="header-vip-acc__button">Open Personal VIP Account</button></Link>
+                <Link to="/registration" className="header-vip-acc__link"><button className="header-vip-acc__button header-vip-acc__button--black">Open Corporate VIP Account</button></Link>
               </div>
             </div>
           </div>

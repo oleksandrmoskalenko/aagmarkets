@@ -127,3 +127,35 @@
     line-height: 25px;
   }
 }
+
+@media (max-width: 459px) {
+  .questions {
+    height: 880px;
+  }
+  
+  .questions__subsubtitle {
+    font-size: 14px;
+    width: 240px;
+  }
+
+  .questions__card-text {
+    font-size: 13px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 360px) {
+  .questions {
+    height: 930px;
+  }
+
+  .questions__subsubtitle {
+    font-size: 12px;
+    width: 180px;
+  }
+
+  .questions__card-text {
+    font-size: 11px;
+    width: 180px;
+  }
+}

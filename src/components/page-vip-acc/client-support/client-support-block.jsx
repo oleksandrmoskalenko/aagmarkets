@@ -7,7 +7,7 @@ const ClientSupportBlock = ({ clientSupport }) => {
     <div className="row">
       {clientSupport.map((el, i) => {
         return (
-          <div className="col-12 col-lg-4" key={i}>
+          <div className="col-12 col-md-4" key={i}>
             <div className="client-support-block text-left">
               <img className="client-support__img" src={require(`./img/client-support-${el.img}.png`)} alt={`${el.img}`} />
               <div className="client-support__wrapper">

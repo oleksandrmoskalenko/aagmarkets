@@ -10,7 +10,7 @@ const TradeAssets = ({ tradeAssets }) => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-5">
-            <div className="trade-assets-block text-lg-left mt-5">
+            <div className="trade-assets-block text-lg-left">
               <h2 className="trade-assets__title">Trade Forex, Gold, Crypto, Indices, and Commodities</h2>
               <p className="trade-assets__text">Get immediate access to the assets you want to trade.</p>
               <Nav.Link href="/homepage" className="p-0"><button className="trade-assets__button">Open Free Account</button></Nav.Link>

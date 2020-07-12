@@ -65,12 +65,10 @@
 
 @media (max-width: 991px) {
   .client-support {
-    height: 1700px;
+    height: 770px;
   }
 
   .client-support-block {
-    width: 50%;
-    margin-left: 25%;
     margin-bottom: 40px;
   }
 
@@ -80,11 +78,21 @@
 
   .client-support__subsubtitle {
     font-size: 16px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
 
   .client-support__text {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 38px;
+    line-height: 21px;
+  }
+
+  .client-support__wrapper {
+    height: 340px;
+    padding: 15px;
   }
 }
 
@@ -104,15 +112,24 @@
 
   .client-support__subsubtitle {
     font-size: 14px;
+    height: 40px;
   }
 
   .client-support__text {
     font-size: 12px;
     margin-bottom: 28px;
-    line-height: 21px;
+  }
+
+  .client-support__wrapper {
+    height: 215px;
   }
 }
 
+@media (max-width: 575px) {
+  .client-support__wrapper {
+    height: 242px;
+  }
+}
 
 
 

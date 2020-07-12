@@ -83,6 +83,7 @@
   .fx-trade__title {
     font-size: 38px;
     margin-top: 20px;
+    padding-bottom: 20px!important;
   }
 
   .fx-trade__subsubtitle {
@@ -124,6 +125,10 @@
 }
 
 @media (max-width: 575px) {
+  .fx-trade {
+    height: 875px;
+  }
+  
   .fx-trade__wrapper {
     height: 168px;
   }
