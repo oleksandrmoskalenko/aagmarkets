@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '../../../css/reset.css'
 import './feedback.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

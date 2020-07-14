@@ -2,7 +2,6 @@ import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
-import '../../../css/reset.css'
 import './questions.css'
 
 

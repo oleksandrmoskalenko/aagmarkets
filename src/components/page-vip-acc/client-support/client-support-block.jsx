@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../css/reset.css'
 import './client-support.css'
 
 const ClientSupportBlock = ({ clientSupport }) => {

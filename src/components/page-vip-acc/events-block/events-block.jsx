@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../css/reset.css'
 import './events-block.css'
 
 import EventsSubBlock from './events-sub-block'

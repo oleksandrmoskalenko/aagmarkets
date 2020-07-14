@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../css/reset.css'
 import './why-trade.css'
 import WhyTradeBlock from './why-trade-block'
 

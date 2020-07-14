@@ -10,6 +10,8 @@ import SignIn from '../components/page-sign-forms/sign-in/sign-in'
 import SignUp from '../components/page-sign-forms/sign-up/sign-up'
 import ForgotPassword from '../components/page-sign-forms/forgot-password/forgot-password'
 
+import ScrollToTop from '../components/scroll-to-top/scroll-to-top'
+
 import './app.css'
 import data from '../db/data.json'
 
@@ -35,6 +37,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <div>
+            <ScrollToTop />
             <BootstrapNavbar />
             <Route exact path="/">
               <Redirect to="/homepage" />

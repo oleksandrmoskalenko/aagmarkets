@@ -28,10 +28,10 @@ const BootstrapNavbar = () => {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="/homepage" className="navigation__link">Home Page</Nav.Link>
-                  <Nav.Link href="/accounts" className="navigation__link">Accounts</Nav.Link>
-                  <Nav.Link href="/vip-accounts" className="navigation__link">VIP Accounts</Nav.Link>
-                  <Nav.Link href="/products" className="navigation__link">Products</Nav.Link>
+                  <Link to="/homepage" className="navigation__link">Home Page</Link>
+                  <Link to="/accounts" className="navigation__link">Accounts</Link>
+                  <Link to="/vip-accounts" className="navigation__link">VIP Accounts</Link>
+                  <Link to="/products" className="navigation__link">Products</Link>
                 </Nav>
                 <div className="navigation__block d-flex align-items-center justify-content-center">
                   <Link to="/login"><button className="navigation__button navigation__button--login">Login</button></Link>
@@ -45,5 +45,4 @@ const BootstrapNavbar = () => {
     </div >
   )
 }
-
 export default BootstrapNavbar
