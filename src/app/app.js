@@ -28,7 +28,8 @@ class App extends Component {
       tradeAssets = data[10].tradeAssets,
       signUp = data[11].signUp,
       questions = data[12].questions,
-      accounts = data[13].accounts
+      accounts = data[13].accounts,
+      contactUs = data[14].contactUs
 
     return (
       <div className="App">
@@ -48,7 +49,7 @@ class App extends Component {
               <VipAccountsPage vipAdvantages={vipAdvantages} clientSupport={clientSupport} eventsBlock={eventsBlock} questions={questions} />
             } />
             <Route path="/products/" render={() =>
-              <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} questions={questions} />
+              <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} questions={questions} contactUs={contactUs} />
             } />
             <Route path="/login" render={() =>
               <div className="login">

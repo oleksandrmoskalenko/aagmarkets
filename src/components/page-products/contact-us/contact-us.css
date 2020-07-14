@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .contact-us {
+    background: url('./img/contact-us-bg.png') 100% 100% no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+  
+  .contact-us__wrapper {
+    background: #fff;
+    background-size: cover;
+    color: #000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    width: 80%;
+  }
+  
+  .contact-us-form {
+    width: 80%;
+    height: 660px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contact-us__title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  
+  .contact-us__text {
+    font-size: 14px;
+  }
+  
+  .contact-us__button {
+    background: #52afee!important;
+    border:none!important;
+    height: 40px;
+    transition: .4s!important;
+    margin-bottom: 25px;
+  }
+  
+  .contact-us__button:hover {
+    background: #009cff!important;
+    color: #fff;
+  }
+  
+  .contact-us__button:focus {
+    outline: 0;
+  }
+
+  .contact-us__link, .contact-us__link:hover {
+    text-decoration: none;
+    color: #fff;
+    padding: 0!important;
+  }
+  
+  .contact-us__text-area {
+    resize: none;
+  }
+  
+  @media (max-width: 991px) {
+    .contact-us-form {
+      font-size: 15px;
+    }
+  
+    .contact-us-form::placeholder {
+      font-size: 15px;
+    }
+  
+    .contact-us-form label {
+      font-size: 15px;
+    }
+    
+    .contact-us__title {
+      font-size: 34px;
+    }
+  
+    .contact-us__text {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .contact-us-form {
+      height: 580px;
+    }
+  
+    .contact-us__title {
+      font-size: 32px;
+    }
+  
+    .contact-us__button {
+      font-size: 15px!important;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .contact-us-form {
+      height: 620px;
+    }
+
+    .contact-us-form {
+      font-size: 14px;
+    }
+  
+    .contact-us-form::placeholder {
+      font-size: 14px;
+    }
+  
+    .contact-us-form label {
+      font-size: 14px;
+    }
+    
+    .contact-us__title {
+      font-size: 28px;
+    }
+  
+    .contact-us__text {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .contact-us-form {
+      height: 560px;
+      font-size: 12px;
+    }
+  
+    .contact-us-form::placeholder {
+      font-size: 12px;
+    }
+  
+    .contact-us-form label {
+      font-size: 12px;
+    }
+    
+    .contact-us__title {
+      font-size: 24px;
+    }
+  
+    .contact-us__text {
+      font-size: 11px;
+    }
+  
+    .contact-us__button {
+      font-size: 13px;
+    }
+  }

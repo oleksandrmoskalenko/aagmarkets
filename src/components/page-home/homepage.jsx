@@ -23,7 +23,7 @@ const Homepage = ({ headerHomepage, tradeAssets, benefits, feedback, startTradin
       <HalalInvesting />
       <Benefits benefits={benefits} />
       <Software />
-
+      <Feedback feedback={feedback} />
       <StartTrading startTrading={startTrading} />
       <FreeAccount />
       <Footer />

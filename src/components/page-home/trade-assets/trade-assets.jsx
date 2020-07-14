@@ -28,7 +28,7 @@ const TradeAssets = ({ tradeAssets }) => {
                   {tradeAssets.map((el, i) => {
                     return (
                       <tr key={i}>
-                        <td className={el.clName}>{el.instrument}</td>
+                        <td className={el.clName}><div className={`trade-assets__icon trade-assets__icon--${el.id}`}></div>{el.instrument}</td>
                         <td className={el.clName}>{el.leverage}</td>
                       </tr>
                     )

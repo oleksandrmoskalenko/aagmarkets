@@ -15,6 +15,28 @@ export default class Feedback extends Component {
         pauseOnHover: false,
         dots: true,
         slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+            }
+          },
+          {
+            breakpoint: 575,
+            settings: {
+              slidesToShow: 1,
+              arrows: false,
+            }
+          }
+
+        ]
       };
 
     return (
@@ -27,18 +49,19 @@ export default class Feedback extends Component {
           </div>
           <Slider className="feedback__slider" {...settings}>
             {feedback.map(el => {
-              return (<div className="col-12" key={el.id}>
-                <article className="feedback__item">
-                  <p className="feedback__text">{el.text}</p>
-                  <div className="feedback__author d-flex">
-                    <div className={`feedback__author-img feedback__author-img--${el.id}`}></div>
-                    <div className="feedback-block__wrapper">
-                      <div className="feedback__author-name">{el.author}</div>
-                      <div className="feedback__author-date">{el.date}</div>
+              return (
+                <div className="col-8 col-md-12" key={el.id}>
+                  <article className="feedback__item">
+                    <p className="feedback__text">{el.text}</p>
+                    <div className="feedback__author d-flex">
+                      <div className={`feedback__author-img feedback__author-img--${el.id}`}></div>
+                      <div className="feedback-block__wrapper">
+                        <div className="feedback__author-name">{el.author}</div>
+                        <div className="feedback__author-date">{el.date}</div>
+                      </div>
                     </div>
-                  </div>
-                </article>
-              </div>)
+                  </article>
+                </div>)
             })}
           </Slider>
         </div>

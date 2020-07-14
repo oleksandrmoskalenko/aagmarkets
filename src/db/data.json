@@ -234,26 +234,31 @@
   {
     "tradeAssets": [
       {
+        "id": "1",
         "instrument": "GOLD",
-        "leverage": "888X",
+        "leverage": "500X",
         "clName": "trade-assets__item"
       },
       {
+        "id": "2",
         "instrument": "Bitcoin",
-        "leverage": "10X",
+        "leverage": "100X",
         "clName": "trade-assets__item"
       },
       {
-        "instrument": "EUR/USD",
-        "leverage": "888X",
+        "id": "3",
+        "instrument": "Ethereum",
+        "leverage": "100X",
         "clName": "trade-assets__item"
       },
       {
-        "instrument": "HSI",
-        "leverage": "888X",
+        "id": "4",
+        "instrument": "Litecoin",
+        "leverage": "100X",
         "clName": "trade-assets__item"
       },
       {
+        "id": "5",
         "instrument": "CRUDE OIL",
         "leverage": "200X",
         "clName": "trade-assets__item"
@@ -423,11 +428,11 @@
         "placeholder": "Enter email"
       },
       {
-        "id": "formTextArea",
+        "id": "formYourSubject",
         "clName": "font-weight-bold d-flex",
         "text": "Subject",
         "type": "text",
-        "placeholder": "Write your text"
+        "placeholder": "Subject"
       }
     ]
   }
