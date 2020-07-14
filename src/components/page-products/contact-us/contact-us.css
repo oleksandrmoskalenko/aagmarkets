@@ -84,7 +84,7 @@
   
   @media (max-width: 767px) {
     .contact-us-form {
-      height: 580px;
+      height: 620px;
     }
   
     .contact-us__title {
@@ -97,10 +97,6 @@
   }
   
   @media (max-width: 575px) {
-    .contact-us-form {
-      height: 620px;
-    }
-
     .contact-us-form {
       font-size: 14px;
     }

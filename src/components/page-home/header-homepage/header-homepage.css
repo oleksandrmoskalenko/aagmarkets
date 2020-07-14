@@ -315,3 +315,38 @@ li.slick-active{
     line-height: 16px;
   }
 }
+
+@media (max-width: 381px) {
+  .header-homepage-block {
+    margin-top: 155px;
+  }
+  
+  .header-homepage {
+    height: 420px;
+  }
+  
+  .header-homepage__title {
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .header-homepage__subtitle {
+    display: none;
+  }
+
+  .header-homepage__img {
+    margin-top: 0;
+  }
+
+  .header-homepage__img--1 {
+    margin-top: 25px;
+  }
+
+  .header-homepage__img--2 {
+    margin-top: 35px;
+  }
+
+  .header-homepage .slick-dots {
+    bottom: 205px;
+  }
+}

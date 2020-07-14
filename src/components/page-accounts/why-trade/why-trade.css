@@ -74,7 +74,7 @@
 
 @media (max-width: 767px) {
   .why-trade {
-    height: 720px;
+    height: 700px;
   }
   
   .why-trade__title {
@@ -92,11 +92,63 @@
 }
 
 @media (max-width: 575px) {
+  .why-trade {
+    height: 660px;
+  }
+
   .why-trade__subsubtitle {
     font-size: 14px;
   }
 
   .why-trade__text {
     font-size: 11px;
+  }
+}
+
+@media (max-width: 523px) {
+  .why-trade {
+    height: 720px;
+  }
+}
+
+@media (max-width: 500px) {
+  .why-trade {
+    height: 740px;
+  }
+}
+
+@media (max-width: 418px) {
+  .why-trade {
+    height: 780px;
+  }
+}
+
+@media (max-width: 396px) {
+  .why-trade {
+    height: 830px;
+  }
+
+  .why-trade__subsubtitle {
+    height: 76px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 368px) {
+  .why-trade {
+    height: 860px;
+  }
+}
+
+@media (max-width: 345px) {
+  .why-trade {
+    height: 880px;
+  }
+}
+
+@media (max-width: 330px) {
+  .why-trade {
+    height: 900px;
   }
 }

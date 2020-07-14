@@ -108,3 +108,43 @@
     margin-left: calc(50% - 181px);
   }
 }
+
+@media (max-width: 460px) {
+  .tiers {
+    height: 720px;
+  }
+  
+  .tiers__button {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 460px) {
+  .tiers {
+    height: 635px;
+  }
+  
+  .tiers__img {
+    margin-top: 30px;
+    width: 315px;
+    height: 201px;
+    margin-left: calc(50% - 157.5px);
+  }
+}
+
+@media (max-width: 366px) {
+  .tiers__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .tiers__text {
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 342px) {
+  .tiers {
+    height: 660px;
+  }
+}

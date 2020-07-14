@@ -8,10 +8,10 @@ const Accounts = ({ accounts }) => {
   return (
     <section className="accounts" id="accounts">
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-center">
           {accounts.map(el => {
             return (
-              <div className="col-12 col-lg-4 d-flex justify-content-center" key={el.type}>
+              <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center" key={el.type}>
                 <div className="w-100 accounts__wrapper">
                   <div className="accounts-block text-center mb-5">
                     <div className="accounts__subsubtitle text-uppercase">{el.type}</div>

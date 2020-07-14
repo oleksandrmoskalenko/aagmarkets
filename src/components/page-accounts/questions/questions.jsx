@@ -24,7 +24,7 @@ const Questions = ({ questions }) => {
                 return (
                   <Card className="questions__card" key={i}>
                     <Accordion.Toggle as={Card.Header} eventKey={`${i}`} className="questions__item">
-                      <h4 className="questions__subsubtitle">{el.question}</h4>
+                      <h4 className="questions__subsubtitle text-left">{el.question}</h4>
                       <div className="questions__icon" id="in"></div>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey={`${i}`}>

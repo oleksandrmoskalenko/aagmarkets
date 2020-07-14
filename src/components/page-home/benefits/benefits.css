@@ -69,8 +69,8 @@
 
 @media (max-width: 767px) {
   .benefits {
-    height: 380px;}
-
+    height: 380px;
+  }
   
   .benefits__icon {
     margin: 73px 0 15px;
@@ -84,5 +84,47 @@
 
   .benefits__text {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 491px) {
+  .benefits {
+    height: 420px;
+  }
+}
+
+@media (max-width: 422px) {
+  .benefits__subsubtitle {
+    font-size: 12px;
+    line-height: 22px;
+    height: 50px;
+  }
+
+  .benefits__text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 376px) {
+  .benefits {
+    height: 380px;
+  }
+  
+  .benefits__subsubtitle {
+    font-size: 11px;
+    line-height: 20px;
+    height: 60px;
+  }
+
+  .benefits__text {
+    font-size: 10px;
+    height: 125px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 338px) {
+  .benefits__subsubtitle{
+    height: 70px;
   }
 }

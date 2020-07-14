@@ -75,5 +75,29 @@
   }
 }
 
+@media (max-width: 575px) {
+  .corp-account {
+    height: 380px;
+  }
+
+  .corp-account__title {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 366px) {
+  .corp-account__title {
+    font-size: 28px;
+  }
+
+  .corp-account__text {
+    font-size: 11px;
+  }
+
+  .corp-account__button {
+    font-size: 12px;
+  }
+}
+
 
 

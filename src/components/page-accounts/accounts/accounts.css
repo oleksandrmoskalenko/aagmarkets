@@ -116,8 +116,7 @@
   }
 
   .accounts-block {
-    width: 50%;
-    margin-left: 25%;
+    width: 100%;
   }
 }
 
@@ -148,13 +147,33 @@
   }
 
   .accounts-block {
-    height: 510px;
+    height: 440px;
+  }
+}
+
+@media (max-width: 440px) {
+  .accounts-block {
+    height: 530px;
   }
 }
 
 @media (max-width: 400px) {
   .accounts-block {
     height: 570px;
+  }
+
+  .accounts__button {
+    font-size: 14px;
+    width: 200px;
+    margin-left: calc(50% - 100px);
+  }
+}
+
+@media (max-width: 360px) {
+  .accounts__button {
+    font-size: 13px;
+    width: 180px;
+    margin-left: calc(50% - 90px);
   }
 }
 

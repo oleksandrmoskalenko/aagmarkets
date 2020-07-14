@@ -133,3 +133,40 @@
     height: 168px;
   }
 }
+
+@media (max-width: 444px) {
+  .fx-trade {
+    height: 1600px;
+  }
+
+  .fx-trade__box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fx-trade-block {
+    margin-left: 35%;
+    width: 150%;
+  }
+}
+
+@media (max-width: 368px) {
+  .fx-trade {
+    height: 1660px;
+  }
+  
+  .fx-trade__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  
+  .fx-trade__subsubtitle {
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  .fx-trade__wrapper {
+    height: 190px;
+  }
+}

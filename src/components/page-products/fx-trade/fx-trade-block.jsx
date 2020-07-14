@@ -4,7 +4,7 @@ import './fx-trade.css'
 
 const FxTradeBlock = ({ fxTrade }) => {
   return (
-    <div className="row">
+    <div className="row fx-trade__box">
       {fxTrade.map(el => {
         return (
           <div className="col-6 col-lg-3" key={el.id}>

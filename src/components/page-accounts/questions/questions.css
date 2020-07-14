@@ -118,9 +118,17 @@
   .questions-block {
     margin-top: 20px;
   }
+
+  .questions__card-text {
+    width: 90%;
+  }
 }
 
 @media (max-width: 575px) {
+  .questions {
+    height: 840px;
+  }
+  
   .questions__subsubtitle {
     width: 300px;
     font-size: 16px;
@@ -136,11 +144,13 @@
   .questions__subsubtitle {
     font-size: 14px;
     width: 240px;
+    line-height: 20px;
   }
 
   .questions__card-text {
     font-size: 13px;
-    width: 240px;
+    width: 80%;
+    padding-right: 0!important;
   }
 }
 
@@ -156,6 +166,6 @@
 
   .questions__card-text {
     font-size: 11px;
-    width: 180px;
+
   }
 }
