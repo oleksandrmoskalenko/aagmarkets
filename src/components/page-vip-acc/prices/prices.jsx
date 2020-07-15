@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav'
+import { Link } from 'react-router-dom'
 import './prices.css'
 
 
@@ -15,7 +15,7 @@ const Prices = () => {
                 Take advantage of the best prices the market has to offer and trade on our tightest spreads and lowest
                 commissions.
                 </p>
-              <Nav.Link href="/homepage" className="p-0"><button className="prices__button">See our Pricing</button></Nav.Link>
+              <Link to="/products" className="p-0"><button className="prices__button">See our Pricing</button></Link>
             </div>
           </div>
           <div className="col-12 col-xl-8 text-center">

@@ -61,7 +61,7 @@
 
 .leverage-trade__button {
   margin-top: 60px;
-  width: 153px;
+  width: 174px;
   height: 52px;
   color: #fff;
   font-size: 16px;
@@ -145,5 +145,43 @@
 
   .leverage-trade__percent{
     font-size: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .leverage-trade {
+    height: 1030px;
+  }
+
+  .leverage-trade__img {
+    width: 377px;
+    height: 253px;
+  }
+}
+
+@media (max-width: 420px) {
+  .leverage-trade {
+    height: 1010px;
+  }
+
+  .leverage-trade__img {
+    width: 339px;
+    height: 228px;
+  }
+}
+
+@media (max-width: 371px) {
+  .leverage-trade {
+    height: 970px;
+  }
+
+  .leverage-trade__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .leverage-trade__img {
+    width: 278px;
+    height: 187px;
   }
 }

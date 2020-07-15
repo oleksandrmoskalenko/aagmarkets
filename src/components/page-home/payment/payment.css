@@ -37,3 +37,17 @@
   }
 }
 
+@media (max-width: 575px) {
+  .payment {
+    height: 90px;
+  }
+  
+  .payment__text {
+    font-size: 16px;
+  }
+  
+  .payment__img {
+    width: 280px;
+    height: 22.5px;
+  }
+}

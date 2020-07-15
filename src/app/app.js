@@ -31,7 +31,9 @@ class App extends Component {
       signUp = data[11].signUp,
       questions = data[12].questions,
       accounts = data[13].accounts,
-      contactUs = data[14].contactUs
+      contactUs = data[14].contactUs,
+      software = data[15].software,
+      freeAccount = data[16].freeAccount
 
     return (
       <div className="App">
@@ -43,7 +45,7 @@ class App extends Component {
               <Redirect to="/homepage" />
             </Route>
             <Route path="/homepage" render={() =>
-              <Homepage headerHomepage={headerHomepage} tradeAssets={tradeAssets} benefits={benefits} feedback={feedback} startTrading={startTrading} />
+              <Homepage headerHomepage={headerHomepage} tradeAssets={tradeAssets} benefits={benefits} feedback={feedback} startTrading={startTrading} software={software} freeAccount={freeAccount} />
             } />
             <Route path="/accounts" render={() =>
               <AccountsPage whyTrade={whyTrade} questions={questions} accounts={accounts} />

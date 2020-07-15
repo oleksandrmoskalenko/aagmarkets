@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './software.css'
 
 
-const Software = () => {
+const Software = ({ software }) => {
   return (
     <section className="software" id="software">
       <div className="container">
@@ -22,24 +22,16 @@ const Software = () => {
         </div>
         <div className="row">
           <div className="col-12 col-md-8 software__wrapper d-md-flex">
-            <div className="col-12 col-md-4">
-              <div className="software-block">
-                <p className="software__numbers">&lt; 7.12 ms</p>
-                <span className="software__text software__text--big">Average order execution speed</span>
-              </div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="software-block">
-                <p className="software__numbers">12&#43;</p>
-                <span className="software__text">Integrated liquidity providers</span>
-              </div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="software-block">
-                <p className="software__numbers">&lt; 12,000</p>
-                <span className="software__text">Executed orders per second</span>
-              </div>
-            </div>
+            {software.map((el, i) => {
+              return (
+                <div className="col-12 col-md-4" key={i}>
+                  <div className="software-block">
+                    <p className="software__numbers">{el.numbers}</p>
+                    <span className="software__text software__text--big">{el.text}</span>
+                  </div>
+                </div>
+              )
+            })}
           </div>
           <div className="col-12 col-md-4 pt-4 pt-md-0">
             <div className="software-block">

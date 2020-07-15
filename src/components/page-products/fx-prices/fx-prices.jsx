@@ -12,7 +12,7 @@ const FxPrices = () => {
               <h2 className="fx-prices__title">Receive our very best</h2>
               <p className="fx-prices__text">Receive lower prices as you trade more with our Platinum and VIP account tiers.
             </p>
-              <Link to="/registration"><button className="fx-prices__button">See all FX prices</button></Link>
+              <Link to="/registration"><button className="fx-prices__button">What is a VIP Account?</button></Link>
             </div>
           </div>
         </div>

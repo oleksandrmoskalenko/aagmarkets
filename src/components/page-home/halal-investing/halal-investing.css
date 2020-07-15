@@ -65,20 +65,23 @@
 
 @media (max-width: 991px) {
   .halal-investing {
-    height: 770px;
+    height: 310px;
   }
 
   .halal-investing__title {
-    font-size: 38px;
+    width: 330px;
+    font-size: 34px;
+    line-height: 55px;
     text-align: center;
     display: flex;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   .halal-investing__text {
     font-size: 14px;
     text-align: center;
+    margin-bottom: 25px;
   }
 
   .halal-investing__link {
@@ -87,14 +90,19 @@
   }
 
   .halal-investing__img {
-    margin-left: calc(50% - 222.5px);
-    margin-top: 0;
+    width: 325px;
+    height: 232.5px;
+    margin-top: 10px;
+  }
+
+  .halal-investing__button {
+    margin-bottom: 40px;
   }
 }
 
 @media (max-width: 767px) {
   .halal-investing {
-    height: 640px;
+    height: 570px;
   }
 
   .halal-investing-block {
@@ -122,6 +130,35 @@
   }
 
   .halal-investing__button {
-    margin-bottom: 10px;
+    margin: 15px 0 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  .halal-investing__title {
+    width: 360px;
+  }
+}
+
+@media (max-width: 371px) {
+  .halal-investing {
+    height: 530px;
+  }
+  
+  .halal-investing__title {
+    width: 280px;
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .halal-investing__button {
+    margin-bottom: 0;
+  }
+
+  .halal-investing__img {
+    width: 275px;
+    height: 197x;
+    margin-left: calc(50% - 137.5px);
+    margin-top: 0;
   }
 }

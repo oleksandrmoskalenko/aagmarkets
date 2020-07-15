@@ -435,5 +435,37 @@
         "placeholder": "Subject"
       }
     ]
+  },
+  {
+    "software": [
+      {
+        "numbers": "< 7.12 ms",
+        "text": "Average order execution speed"
+      },
+      {
+        "numbers": "12+",
+        "text": "Integrated liquidity providers"
+      },
+      {
+        "numbers": "< 12,000",
+        "text": "Executed orders per second"
+      }
+    ]
+  },
+  {
+    "freeAccount": [
+      {
+        "text": "Leading trading platform"
+      },
+      {
+        "text": "Zero fees"
+      },
+      {
+        "text": "Zero commission"
+      },
+      {
+        "text": "Tight spreads"
+      }
+    ]
   }
 ]

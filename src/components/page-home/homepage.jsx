@@ -12,7 +12,7 @@ import StartTrading from './start-trading/start-trading';
 import FreeAccount from './free-account/free-account';
 import Footer from './footer/footer';
 
-const Homepage = ({ headerHomepage, tradeAssets, benefits, feedback, startTrading }) => {
+const Homepage = ({ headerHomepage, tradeAssets, benefits, feedback, startTrading, software, freeAccount }) => {
   return (
     <div className="homepage">
       <HeaderHomepage headerHomepage={headerHomepage} />
@@ -22,10 +22,10 @@ const Homepage = ({ headerHomepage, tradeAssets, benefits, feedback, startTradin
       <TradeAssets tradeAssets={tradeAssets} />
       <HalalInvesting />
       <Benefits benefits={benefits} />
-      <Software />
+      <Software software={software} />
       <Feedback feedback={feedback} />
       <StartTrading startTrading={startTrading} />
-      <FreeAccount />
+      <FreeAccount freeAccount={freeAccount} />
       <Footer />
     </div>
   )

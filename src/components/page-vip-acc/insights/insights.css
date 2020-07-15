@@ -48,6 +48,7 @@
   .insights__title {
     font-size: 32px;
     margin-top: 60px;
+    margin-left: 0;
   }
 
   .insights__text {
@@ -60,3 +61,20 @@
   }
 }
 
+@media (max-width: 460px) {
+  .insights__text {
+    width: 300px;
+  }
+}
+
+@media (max-width: 366px) {
+  .insights__title {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  .insights__text {
+    font-size: 11px;
+    width: 250px;
+  }
+}

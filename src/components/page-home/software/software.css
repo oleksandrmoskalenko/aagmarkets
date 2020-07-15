@@ -122,3 +122,53 @@
     margin-left: calc(50% - 204px);
   }
 }
+
+@media (max-width: 460px) {
+  .software {
+    height: 1045px;
+  }
+  
+  .software__title {
+    margin-top: 30px;
+  }
+
+  .software__img {
+    width: 346px;
+    height: 199px;
+    margin-left: calc(50% - 173px);
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 426px) {
+  .software {
+    height: 1100px;
+  }
+}
+
+@media (max-width: 371px) {
+  .software {
+    height: 930px;
+  }
+
+  .software__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .software__text {
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  .software__img {
+    width: 280px;
+    height: 161px;
+    margin: 22px 0 30px calc(50% - 140px);
+  }
+
+  .software__button {
+    margin-top: 25px;
+  }
+}

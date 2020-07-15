@@ -26,6 +26,12 @@
   align-items: center;
 }
 
+.free-account__icon {
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%231BB75E' d='M19.75 12C19.75 16.2802 16.2802 19.75 12 19.75C7.71978 19.75 4.25 16.2802 4.25 12C4.25 7.71978 7.71978 4.25 12 4.25C16.2802 4.25 19.75 7.71978 19.75 12ZM11.1036 16.1036L16.8536 10.3536C17.0488 10.1583 17.0488 9.84172 16.8536 9.64647L16.1465 8.93937C15.9512 8.74409 15.6346 8.74409 15.4393 8.93937L10.75 13.6287L8.56066 11.4393C8.36541 11.2441 8.04881 11.2441 7.85353 11.4393L7.14644 12.1464C6.95119 12.3417 6.95119 12.6583 7.14644 12.8535L10.3964 16.1035C10.5917 16.2988 10.9083 16.2988 11.1036 16.1036Z' /%3E%3C/svg%3E");
+}
+
 .free-account__text {
   font-weight: 700;
   font-size: 18px;
@@ -58,16 +64,15 @@
 
 @media (max-width: 991px) {
   .free-account{
-    height: 940px;
+    height: 870px;
   }
   
   .free-account__title {
     font-size: 38px;
     width: 100%;
     line-height: 50px;
-    margin-bottom: 32px;
+    margin: 40px 0 32px;
     text-align: center;
-    margin-top: 30px;
   }
 
   .free-account__text {
@@ -79,8 +84,8 @@
   }
 
   .free-account__img {
-    margin-top: 60px;
-    margin-left: 0;
+    margin-top: 40px;
+    margin-left: calc(47% - 322.5px);
   }
 
   .free-account__list {
@@ -93,17 +98,18 @@
   .free-account__img {
     width: 549px;
     height: 350px;
+    margin-left: calc(47% - 274.5px);
   }
 }
 
 @media (max-width: 767px) {
   .free-account {
-    height: 760px;
+    height: 780px;
   }
   
   .free-account__title {
     font-size: 32px;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .free-account__text {
@@ -113,7 +119,8 @@
   .free-account__img {
     width: 452px;
     height: 288px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: calc(46% - 226px);
   }
 
   .free-account__button {
@@ -123,6 +130,10 @@
 }
 
 @media (max-width: 671px) {
+  .free-account {
+    height: 765px;
+  }
+  
   .free-account__img {
     width: 420px;
     height: 299px;
@@ -131,9 +142,112 @@
 }
 
 @media (max-width: 575px) {
+  .free-account {
+    height: 740px;
+  }
+  
   .free-account__img {
     width: 387px;
     height: 247px;
     margin-left: calc(45% - 193.5px);
   }
 }
+
+@media (max-width: 533px) {
+  .free-account {
+    height: 790px;
+  }
+
+  .free-account__img {
+    width: 387px;
+    height: 247px;
+    margin-left: calc(48% - 193.5px);
+  }
+}
+
+@media (max-width: 460px) {
+  .free-account {
+    height: 780px;
+  }
+
+  .free-account__title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .free-account__text {
+    font-size: 13px;
+  }
+
+  .free-account__img {
+    width: 387px;
+    height: 247px;
+    margin-left: calc(48% - 193.5px);
+    margin-top: 20px;
+  }
+
+  .free-account__button {
+    width: 154px;
+    height: 44px;
+    font-size: 13px;
+    margin: 10px 0 20px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 420px) {
+  .free-account {
+    height: 745px;
+  }
+    
+  .free-account__text {
+    font-size: 12px;
+  }
+
+  .free-account__img {
+    width: 329px;
+    height: 210px;
+    margin-left: calc(55% - 193.5px);
+  }
+}
+
+@media (max-width: 371px) {
+  .free-account {
+    height: 680px;
+  }
+  
+  .free-account__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .free-account__text {
+    font-size: 11px;
+  }
+
+  .free-account__img {
+    width: 280px;
+    height: 178px;
+    margin-left: calc(48% - 140px);
+  }
+
+  .free-account__button {
+    margin: 0 0 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .free-account {
+    height: 660px;
+  }
+
+  .free-account__title {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .free-account__text {
+    font-size: 10px;
+  }
+}
+

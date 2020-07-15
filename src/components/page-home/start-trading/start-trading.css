@@ -113,14 +113,66 @@
   }
 }
 
+@media (max-width: 575px) {
+  .start-trading {
+    height: 400px;
+  }
+}
+
 @media (max-width: 482px) {
   .start-trading {
-    height: 430px;
+    height: 450px;
   }
 
   .start-trading__title {
     width: 350px;
     margin-left: calc(50% - 175px);
+  }
+}
+
+@media (max-width: 452px) {
+  .start-trading {
+    height: 470px;
+  }
+}
+
+@media (max-width: 422px) {
+  .start-trading__title {
+    width: 300px;
+    margin-left: calc(50% - 150px);
+  }
+  
+  .start-trading__subsubtitle {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .start-trading__text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 376px) {
+  .start-trading {
+    height: 380px;
+  }
+
+  .start-trading__title {
+    width: 250px;
+    font-size: 28px;
+    line-height: 45px;
+    margin-left: calc(50% - 125px);
+  }
+  
+  .start-trading__subsubtitle {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .start-trading__text {
+    font-size: 10px;
+    height: 125px;
+    overflow: hidden;
   }
 }
 
