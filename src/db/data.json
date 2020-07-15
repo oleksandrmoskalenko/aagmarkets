@@ -467,5 +467,60 @@
         "text": "Tight spreads"
       }
     ]
+  },
+  {
+    "footer1": [
+      {
+        "text": "Terms of Business ",
+        "symbol": "|"
+      },
+      {
+        "text": "Privacy Policy ",
+        "symbol": "|"
+      },
+      {
+        "text": "Risk Warning ",
+        "symbol": "|"
+      },
+      {
+        "text": "Cookie Policy ",
+        "symbol": "|"
+      }
+    ]
+  },
+  {
+    "footer2": [
+      {
+        "text": "Leverage ",
+        "symbol": "|"
+      },
+      {
+        "text": "Long/Short Trading ",
+        "symbol": "|"
+      },
+      {
+        "text": "Refer & Earn ",
+        "symbol": "|"
+      },
+      {
+        "text": "About us ",
+        "symbol": "|"
+      }
+    ]
+  },
+  {
+    "footer3": [
+      {
+        "text": "Security ",
+        "symbol": "|"
+      },
+      {
+        "text": "Fees and Conditions ",
+        "symbol": "|"
+      },
+      {
+        "text": "Help Center"
+      }
+    ]
   }
 ]

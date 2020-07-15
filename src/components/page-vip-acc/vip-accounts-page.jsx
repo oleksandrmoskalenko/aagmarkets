@@ -9,7 +9,7 @@ import VipAccount from './vip-account/vip-account'
 import Questions from '../page-accounts/questions/questions'
 import Footer from '../page-home/footer/footer'
 
-const VipAccountsPage = ({ vipAdvantages, clientSupport, eventsBlock, questions }) => {
+const VipAccountsPage = ({ vipAdvantages, clientSupport, eventsBlock, questions, footer1, footer2, footer3 }) => {
   return (
     <div className="vip-accounts">
       <HeaderVipAcc />
@@ -20,7 +20,7 @@ const VipAccountsPage = ({ vipAdvantages, clientSupport, eventsBlock, questions 
       <EventsBlock eventsBlock={eventsBlock} />
       <VipAccount />
       <Questions questions={questions} />
-      <Footer />
+      <Footer footer1={footer1} footer2={footer2} footer3={footer3} />
     </div>
   )
 }

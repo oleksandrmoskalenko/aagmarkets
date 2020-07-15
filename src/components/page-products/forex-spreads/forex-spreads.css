@@ -97,3 +97,10 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 371px) {
+  .forex-spreads__title{
+    font-size: 28px;
+    line-height: 45px;
+  }
+}

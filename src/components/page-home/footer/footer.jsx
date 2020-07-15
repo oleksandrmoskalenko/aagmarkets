@@ -3,7 +3,7 @@ import './footer.css'
 import { Link } from 'react-router-dom'
 
 
-const Footer = () => {
+const Footer = ({ footer1, footer2, footer3 }) => {
   return (
     <div>
       <footer className="footer" id="footer">
@@ -24,7 +24,7 @@ const Footer = () => {
                     <img className="footer__img footer__img--meta-quotes" src={require("./img/meta-quotes-logo.png")} alt="meta-quotes-logo" />
                   </a>
                   <a href="https://sumsub.com/" className="footer__link">
-                    <img className="footer__img" src={require("./img/sum-substance-logo.png")} alt="sum-substance-logo" />
+                    <img className="footer__img footer__img--sumsub" src={require("./img/sum-substance-logo.png")} alt="sum-substance-logo" />
                   </a>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div className="row">
             <div className="col-12 col-md-3">
-              <p className="footer__text footer__text--white text-left">
+              <p className="footer__text footer__text--white footer__text-wrapper text-left">
                 AAG Ltd. © 2020. All rights reserved. <br />
             General information: <u>contact@aagmarkets.com</u> <br />
             Technical support: <u>support@aagmarkets.com</u> <br />
@@ -41,45 +41,33 @@ const Footer = () => {
             and the Grenadines
           </p>
             </div>
-            <div className="col-12 col-md-7 mt-2 mt-md-5 mt-lg-4 mt-xl-3">
+            <div className="col-12 col-md-7 mt-2 mt-md-5 mt-lg-4 mt-xl-3 footer__text-wrapper">
               <ul className="footer__list d-flex">
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Terms of Business <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Privacy Policy <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Risk Warning <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Cookie Policy <span className="footer__symbol">|</span>
-                </span></Link></li>
+                {footer1.map((el, i) => {
+                  return (
+                    <li className="footer__item" key={i}><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">{el.text}
+                      <span className="footer__symbol">{el.symbol}</span>
+                    </span></Link></li>
+                  )
+                })}
               </ul>
               <ul className="footer__list d-flex">
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Leverage <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Long/Short Trading <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Refer &#38; Earn <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  About us <span className="footer__symbol">|</span>
-                </span></Link></li>
+                {footer2.map((el, i) => {
+                  return (
+                    <li className="footer__item" key={i + 4}><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">{el.text}
+                      <span className="footer__symbol">{el.symbol}</span>
+                    </span></Link></li>
+                  )
+                })}
               </ul>
               <ul className="footer__list d-flex">
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Security <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Fees and Conditions <span className="footer__symbol">|</span>
-                </span></Link></li>
-                <li className="footer__item"><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">
-                  Help Center
-                </span></Link></li>
+                {footer3.map((el, i) => {
+                  return (
+                    <li className="footer__item" key={i + 8}><Link to="/homepage" className="footer__link"><span className="footer__text footer__text--white">{el.text}
+                      <span className="footer__symbol">{el.symbol}</span>
+                    </span></Link></li>
+                  )
+                })}
               </ul>
             </div>
             <div className="col-12 col-md-2 mr-4 mr-md-0">

@@ -106,4 +106,60 @@
   }
 }
 
+@media (max-width: 575px) {
+  .vip-advantages {
+    height: 530px;
+  }
+
+  .vip-advantages__subsubtitle {
+    font-size: 14px;
+  }
+
+  .vip-advantages__text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 461px) {
+  .vip-advantages {
+    top: -520px;
+    height: 520px;
+  }
+
+  .vip-advantages__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .vip-advantages__subsubtitle{
+    height: 38px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 418px) {
+  .vip-advantages {
+    top: -540px;
+  }
+}
+
+@media (max-width: 404px) {
+  .vip-advantages {
+    top: -570px;
+  }
+}
+
+@media (max-width: 350px) {
+  .vip-advantages {
+    top: -590px;
+  }
+}
+
+@media (max-width: 330px) {
+  .vip-advantages {
+    top: -610px;
+  }
+}
+
 

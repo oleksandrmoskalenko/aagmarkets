@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav'
+import { Link } from 'react-router-dom'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import './questions.css'
@@ -12,8 +12,8 @@ const Questions = ({ questions }) => {
         <div className="row">
           <div className="col-12 text-center">
             <h2 className="questions__title">Frequently Asked Questions</h2>
-            <p className="questions__text text-center">If you didn’t find what you were after, <Nav.Link className="questions__link p-0 d-inline" href="/homepage"><span
-              className="questions__text questions__text--blue">contact us</span></Nav.Link> directly and we’ll help.</p>
+            <p className="questions__text text-center">If you didn’t find what you were after, <Link to="/products" className="questions__link p-0 d-inline" ><span
+              className="questions__text questions__text--blue">contact us</span></Link> directly and we’ll help.</p>
           </div>
         </div>
         <div className="row">

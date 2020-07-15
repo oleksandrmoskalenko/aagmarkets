@@ -128,3 +128,31 @@
     margin-top: 15px;
   }
 }
+
+@media (max-width: 461px) {
+  .header-vip-acc {
+    height: 1340px;
+  }
+}
+
+@media (max-width: 397px) {
+  .header-vip-acc {
+    height: 1400px;
+  }
+}
+
+@media (max-width: 350px) {
+  .header-vip-acc {
+    height: 1430px;
+  }
+}
+
+@media (max-width: 330px) {
+  .header-vip-acc {
+    height: 1450px;
+  }
+}
+
+
+
+

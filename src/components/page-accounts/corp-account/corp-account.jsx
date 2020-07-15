@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './corp-account.css'
 
-
 const CorpAccount = () => {
   return (
     <section className="corp-account" id="corp-account">
@@ -16,9 +15,7 @@ const CorpAccount = () => {
             </div>
           </div>
         </div>
-
       </div>
-
     </section>
   )
 }

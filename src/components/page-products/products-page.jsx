@@ -7,7 +7,7 @@ import Questions from '../page-accounts/questions/questions'
 import Footer from '../page-home/footer/footer'
 import ContactUs from './contact-us/contact-us'
 
-const ProductsPage = ({ fxTrade, forexSpreads, questions, contactUs }) => {
+const ProductsPage = ({ fxTrade, forexSpreads, questions, contactUs, footer1, footer2, footer3 }) => {
   return (
     <div className="products">
       <HeaderProducts />
@@ -16,7 +16,7 @@ const ProductsPage = ({ fxTrade, forexSpreads, questions, contactUs }) => {
       <FxPrices />
       <Questions questions={questions} />
       <ContactUs contactUs={contactUs} />
-      <Footer />
+      <Footer footer1={footer1} footer2={footer2} footer3={footer3} />
     </div>
   )
 }

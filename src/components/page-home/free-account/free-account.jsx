@@ -22,7 +22,8 @@ const FreeAccount = ({ freeAccount }) => {
                       <div className="free-account__text">{el.text}</div>
                     </li>
                   )
-                })}
+                })
+                }
               </ul>
               <Link to="/registration"><button className="free-account__button">Open Free Account</button></Link>
             </div>
