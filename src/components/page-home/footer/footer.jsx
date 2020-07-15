@@ -3,7 +3,7 @@ import './footer.css'
 import { Link } from 'react-router-dom'
 
 
-const Footer = ({ footer1, footer2, footer3 }) => {
+const Footer = ({ footer1, footer2, footer3, footer4, footer5 }) => {
   return (
     <div>
       <footer className="footer" id="footer">
@@ -93,41 +93,14 @@ const Footer = ({ footer1, footer2, footer3 }) => {
           <div className="row">
             <div className="footer-block footer-block--text">
               <p className="footer__text text-uppercase">RISK WARNING</p>
-              <p className="footer__text">Remember that CFDs are a leveraged product and can result in the loss of your entire
-              capital. Trading CFDs may not be suitable for you. Please ensure you fully understand the risks involved.
-              Please consider our Terms and Conditions, Risk Warning, and Privacy Policy before using our services. CFD
-            traders do not own or have any rights to the underlying assets.</p>
-              <p className="footer__text">AAG Markets is a trademark of AAG Ltd.</p>
-              <p className="footer__text">AAG Markets is mainly compensated for its services through the Bid/Ask spread. Check
-              our
-            Fees &#38; Conditions.</p>
-              <p className="footer__text">This website contains general information which doesn’t
-              take into account your
-              personal
-              circumstances.
-          </p>
-              <div className="footer__spacer"></div>
-              <p className="footer__text">Keep in mind that Bitcoin trading with margin may be subject to taxation. You are
-              solely
-              responsible for withholding, collecting, reporting, paying, settling and/or remitting any and all taxes to
-              the
-              appropriate tax authorities in such jurisdiction(s) in which You may be liable to pay tax. AAG Markets shall
-              not be responsible for withholding, collecting, reporting, paying, settling and/or remitting any taxes
-              (including, but not limited to, any income, capital gains, sales, value added or similar tax) which may
-              arise
-            from Your participation in the Bitcoin trading with margin.</p>
-              <div className="footer__spacer"></div>
-              <p className="footer__text">Content, research, tools, and coin symbols are for educational and illustrative
-              purposes
-              only and do not imply a recommendation or solicitation to buy or sell a particular asset or to engage in any
-              particular investment strategy it’s merely a window into what we are doing and speculating about currently.
-              The projections or other information regarding the likelihood of various investment outcomes are
-              hypothetical
-              in nature, are not guaranteed for accuracy or completeness, do not reflect actual investment results, do not
-              take in to consideration commissions, margin interest and other costs, and are not guarantees of future
-              results. All investments involve risk, losses may exceed the principal invested. You alone are responsible
-              for
-            evaluating the merits and risks associated with the use of our systems, services or products.</p>
+              {footer4.map((el, i) => {
+                return (
+                  <div key={i}>
+                    <p className="footer__text">{el.text}</p>
+                    <div className={`footer__${el.spacer}`}></div>
+                  </div>
+                )
+              })}
             </div>
           </div>
         </div>

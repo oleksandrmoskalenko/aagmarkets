@@ -10,7 +10,7 @@ const ClientSupportBlock = ({ clientSupport }) => {
             <div className="client-support-block text-left">
               <img className="client-support__img" src={require(`./img/client-support-${el.img}.png`)} alt={`${el.img}`} />
               <div className="client-support__wrapper">
-                <h4 className="client-support__subsubtitle">{el.title}</h4>
+                <h4 className="client-support__subsubtitle text-left">{el.title}</h4>
                 <p className="client-support__text">{el.text}</p>
               </div>
             </div>

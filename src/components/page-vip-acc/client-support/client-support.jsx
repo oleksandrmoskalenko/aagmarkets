@@ -14,8 +14,7 @@ const ClientSupport = ({ clientSupport }) => {
               client support</h2>
             <p className="client-support__text client-support__text--big">
               Whether you’re looking to discuss trade ideas with a dedicated sales trader or need technical assistance
-              from
-              your relationship <br /> manager, our experts are always on hand to take your call.
+              from your relationship manager, our experts are always on hand to take your call.
             </p>
           </div>
         </div>

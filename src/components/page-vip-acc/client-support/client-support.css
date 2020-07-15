@@ -131,5 +131,65 @@
   }
 }
 
+@media (max-width: 460px) {
+  .client-support__wrapper {
+    height: 267px;
+  }
+}
+
+@media (max-width: 371px) {
+  .client-support {
+    height: 1550px;
+  }
+
+  .client-support__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .client-support__subsubtitle {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .client-support__text {
+    font-size: 11px;
+  }
+
+  .client-support__text--big {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .client-support__text {
+    height: 152px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 340px){
+  .client-support {
+    height: 1510px;
+  }
+}
+
+@media (max-width: 320px) {
+  .client-support {
+    height: 1430px;
+  }
+
+  .client-support__subsubtitle {
+    font-size: 11px;
+  }
+
+  .client-support__text {
+    font-size: 10px;
+  }
+
+  .client-support__wrapper {
+    height: 247px;
+  }
+}
+
 
 

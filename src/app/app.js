@@ -36,7 +36,8 @@ class App extends Component {
       freeAccount = data[16].freeAccount,
       footer1 = data[17].footer1,
       footer2 = data[18].footer2,
-      footer3 = data[19].footer3
+      footer3 = data[19].footer3,
+      footer4 = data[20].footer4
 
     return (
       <div className="App">
@@ -48,16 +49,16 @@ class App extends Component {
               <Redirect to="/homepage" />
             </Route>
             <Route path="/homepage" render={() =>
-              <Homepage headerHomepage={headerHomepage} tradeAssets={tradeAssets} benefits={benefits} feedback={feedback} startTrading={startTrading} software={software} freeAccount={freeAccount} footer1={footer1} footer2={footer2} footer3={footer3} />
+              <Homepage headerHomepage={headerHomepage} tradeAssets={tradeAssets} benefits={benefits} feedback={feedback} startTrading={startTrading} software={software} freeAccount={freeAccount} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
             } />
             <Route path="/accounts" render={() =>
-              <AccountsPage whyTrade={whyTrade} questions={questions} accounts={accounts} footer1={footer1} footer2={footer2} footer3={footer3} />
+              <AccountsPage whyTrade={whyTrade} questions={questions} accounts={accounts} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
             } />
             <Route path="/vip-accounts" render={() =>
-              <VipAccountsPage vipAdvantages={vipAdvantages} clientSupport={clientSupport} eventsBlock={eventsBlock} questions={questions} footer1={footer1} footer2={footer2} footer3={footer3} />
+              <VipAccountsPage vipAdvantages={vipAdvantages} clientSupport={clientSupport} eventsBlock={eventsBlock} questions={questions} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
             } />
             <Route path="/products" render={() =>
-              <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} questions={questions} contactUs={contactUs} footer1={footer1} footer2={footer2} footer3={footer3} />
+              <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} questions={questions} contactUs={contactUs} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
             } />
             <Route path="/login" render={() =>
               <div className="login">
