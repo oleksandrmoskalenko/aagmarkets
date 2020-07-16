@@ -142,3 +142,76 @@
     margin-top: 0;
   }
 }
+
+@media (max-width: 575px) {
+  .vip-account__text {
+    text-align: center;
+    width: 95%;
+  }
+}
+
+@media (max-width: 430px) {
+  .vip-account__title {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .vip-account__button {
+    width: 160px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 405px) {
+  .vip-account {
+    height: 500px;
+  }
+}
+
+@media (max-width: 392px) {
+  .vip-account {
+    height: 600px;
+  }
+
+  .vip-account__text {
+    margin-bottom: 0;
+  }
+
+  .vip-account__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vip-account__button {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 371px) {
+  .vip-account {
+    height: 540px;
+  }
+
+  .vip-account__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .vip-account__text {
+    font-size: 11px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 362px) {
+  .vip-account {
+    height: 560px;
+  }
+
+  .vip-account__img {
+    width: 278px;
+    height: 157px;
+    margin-left: calc(50% - 139px);
+  }
+}
