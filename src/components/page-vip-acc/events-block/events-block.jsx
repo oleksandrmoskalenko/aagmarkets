@@ -5,7 +5,7 @@ import EventsSubBlock from './events-sub-block'
 
 const EventsBlock = ({ eventsBlock }) => {
   return (
-    <section className="events" id="events" >
+    <section className="events">
       <div className="container">
         <div className="row">
           <div className="col-12">

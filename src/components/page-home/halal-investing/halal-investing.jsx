@@ -4,7 +4,7 @@ import './halal-investing.css'
 
 const HalalInvesting = () => {
   return (
-    <section className="halal-investing" id="halal-investing">
+    <section className="halal-investing">
       <div className="container">
         <div className="row d-md-flex flex-column-reverse flex-md-row justify-content-between">
           <div className="col-12 col-md-5">

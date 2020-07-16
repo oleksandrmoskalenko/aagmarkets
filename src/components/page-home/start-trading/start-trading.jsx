@@ -5,7 +5,7 @@ import StartTradingBlock from './start-trading-block'
 
 const StartTrading = ({ startTrading }) => {
   return (
-    <section className="start-trading" id="start-trading">
+    <section className="start-trading">
       <div className="container">
         <div className="row">
           <div className="col-12">

@@ -5,7 +5,7 @@ import './header-vip-acc.css'
 
 const HeaderVipAcc = () => {
   return (
-    <header className="header-vip-acc" id="header-vip-acc">
+    <header className="header-vip-acc">
       <div className="container">
         <div className="row">
           <div className="col-12">

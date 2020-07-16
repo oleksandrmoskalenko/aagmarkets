@@ -6,7 +6,7 @@ import ClientSuppportBlock from './client-support-block'
 
 const ClientSupport = ({ clientSupport }) => {
   return (
-    <section className="client-support" id="client-support">
+    <section className="client-support">
       <div className="container">
         <div className="row">
           <div className="col-12">

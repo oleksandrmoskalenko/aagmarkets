@@ -1,7 +1,7 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import Nav from 'react-bootstrap/Nav'
+import { Link } from 'react-router-dom'
 import './contact-us.css'
 
 const ContactUs = ({ contactUs }) => {
@@ -26,9 +26,9 @@ const ContactUs = ({ contactUs }) => {
                   <Form.Control className="contact-us__text-area" as="textarea" rows="4" placeholder="Your Message" />
                 </Form.Group>
                 <Button className="w-100 contact-us__button" type="submit">
-                  <Nav.Link href="/homepage" className="contact-us__link">
+                  <Link to="/homepage" className="contact-us__link">
                     Submit
-                </Nav.Link>
+                </Link>
                 </Button>
               </Form>
             </div>

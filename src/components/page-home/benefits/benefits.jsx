@@ -4,7 +4,7 @@ import './benefits.css'
 
 const Benefits = ({ benefits }) => {
   return (
-    <section className="benefits" id="benefits">
+    <section className="benefits">
       <div className="container">
         <div className="row">
           {benefits.map(el => {

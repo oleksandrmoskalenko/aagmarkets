@@ -4,7 +4,7 @@ import './insights.css'
 
 const Insights = () => {
   return (
-    <section className="insights" id="insights">
+    <section className="insights">
       <div className="container">
         <div className="row">
           <div className="col-12">

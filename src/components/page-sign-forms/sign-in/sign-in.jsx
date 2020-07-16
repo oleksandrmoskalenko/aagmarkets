@@ -6,7 +6,7 @@ import './sign-in.css'
 
 const SignIn = () => {
   return (
-    <section className="sign-in" id="sign-in">
+    <section className="sign-in">
       <div className="h-100 container">
         <div className="h-100 row d-flex justify-content-center">
           <div className="col-9 col-sm-8 col-md-7 col-lg-6 col-xl-5 d-flex align-items-center">

@@ -1,18 +1,18 @@
 import React from 'react'
 import './trade-assets.css'
-import Nav from 'react-bootstrap/Nav'
+import { Link } from 'react-router-dom'
 
 
 const TradeAssets = ({ tradeAssets }) => {
   return (
-    <section className="trade-assets" id="trade-assets">
+    <section className="trade-assets">
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-5">
             <div className="trade-assets-block text-lg-left">
               <h2 className="trade-assets__title">Trade Forex, Gold, Crypto, Indices, and Commodities</h2>
               <p className="trade-assets__text">Get immediate access to the assets you want to trade.</p>
-              <Nav.Link href="/homepage" className="p-0"><button className="trade-assets__button">Open Free Account</button></Nav.Link>
+              <Link to="/homepage" className="p-0"><button className="trade-assets__button">Open Free Account</button></Link>
               <p className="trade-assets__text trade-assets__text--grey">It only takes 30 seconds</p>
             </div>
           </div>

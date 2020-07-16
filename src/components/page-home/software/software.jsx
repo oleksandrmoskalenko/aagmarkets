@@ -5,7 +5,7 @@ import './software.css'
 
 const Software = ({ software }) => {
   return (
-    <section className="software" id="software">
+    <section className="software">
       <div className="container">
         <div className="row">
           <div className="col-12">

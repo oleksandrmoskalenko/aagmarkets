@@ -39,7 +39,7 @@ export default class Feedback extends Component {
       };
 
     return (
-      <section className="feedback" id="feedback">
+      <section className="feedback">
         <div className="container">
           <div className="row">
             <div className="col-12">

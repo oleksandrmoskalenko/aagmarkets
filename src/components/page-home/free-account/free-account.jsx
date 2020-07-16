@@ -4,7 +4,7 @@ import './free-account.css'
 
 const FreeAccount = ({ freeAccount }) => {
   return (
-    <section className="free-account" id="free-account">
+    <section className="free-account">
       <div className="container">
         <div className="row">
           <div className="col-12">

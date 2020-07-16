@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const MarketPrice = () => {
   return (
-    <section className="market-price d-flex justify-content-center" id="market-price">
+    <section className="market-price">
       <div className="container">
         <div className="row">
           <div className="col-12">

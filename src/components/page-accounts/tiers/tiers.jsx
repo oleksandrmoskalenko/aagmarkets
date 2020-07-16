@@ -5,7 +5,7 @@ import './tiers.css'
 
 const Tiers = () => {
   return (
-    <section className="tiers" id="tiers">
+    <section className="tiers">
       <div className="container">
         <div className="row">
           <div className="col-12 col-xl-4 text-center text-xl-left">

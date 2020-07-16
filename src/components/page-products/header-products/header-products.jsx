@@ -5,7 +5,7 @@ import './header-products.css'
 
 const HeaderProducts = () => {
   return (
-    <header className="header-products" id="header-products">
+    <header className="header-products">
       <div className="container">
         <div className="row">
           <div className="col-12">

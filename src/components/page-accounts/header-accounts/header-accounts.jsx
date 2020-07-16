@@ -5,7 +5,7 @@ import './header-accounts.css'
 
 const HeaderAccounts = () => {
   return (
-    <header className="header-accounts" id="header-accounts">
+    <header className="header-accounts">
       <div className="container">
         <div className="row">
           <div className="col-12">

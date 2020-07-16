@@ -5,7 +5,7 @@ import './forex-spreads.css'
 
 const ForexSpreads = ({ forexSpreads }) => {
   return (
-    <section className="forex-spreads" id="forex-spreads">
+    <section className="forex-spreads">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const SignUp = ({ signUp }) => {
   return (
-    <section className="sign-up" id="sign-up">
+    <section className="sign-up">
       <div className="h-100 container">
         <div className="h-100 row d-flex justify-content-center">
           <div className="col-9 col-sm-8 col-md-7 col-lg-6 col-xl-5 d-flex align-items-center">

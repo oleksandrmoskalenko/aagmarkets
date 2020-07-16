@@ -39,7 +39,9 @@ class App extends Component {
       footer2 = data[18].footer2,
       footer3 = data[19].footer3,
       footer4 = data[20].footer4,
-      allSpreads = data[21].allSpreads
+      allSpreads = data[21].allSpreads,
+      leverage1 = data[22].leverage1,
+      leverage2 = data[23].leverage2
 
     return (
       <div className="App">
@@ -60,7 +62,7 @@ class App extends Component {
               <VipAccountsPage vipAdvantages={vipAdvantages} clientSupport={clientSupport} eventsBlock={eventsBlock} questions={questions} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
             } />
             <Route path="/products" render={() =>
-              <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} questions={questions} contactUs={contactUs} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
+              <ProductsPage fxTrade={fxTrade} leverage1={leverage1} leverage2={leverage2} forexSpreads={forexSpreads} questions={questions} contactUs={contactUs} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
             } />
             <Route path="/login" render={() =>
               <SignIn />

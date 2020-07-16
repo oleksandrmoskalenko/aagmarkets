@@ -4,7 +4,7 @@ import './fx-prices.css'
 
 const FxPrices = () => {
   return (
-    <section className="fx-prices" id="fx-prices">
+    <section className="fx-prices">
       <div className="container">
         <div className="row">
           <div className="col-12">

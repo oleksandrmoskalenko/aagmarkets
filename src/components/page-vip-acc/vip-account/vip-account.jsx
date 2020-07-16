@@ -4,7 +4,7 @@ import './vip-account.css'
 
 const VipAccount = () => {
   return (
-    <section className="vip-account" id="vip-account">
+    <section className="vip-account">
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6">

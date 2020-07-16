@@ -4,7 +4,7 @@ import './corp-account.css'
 
 const CorpAccount = () => {
   return (
-    <section className="corp-account" id="corp-account">
+    <section className="corp-account">
       <div className="container">
         <div className="row">
           <div className="col-12">

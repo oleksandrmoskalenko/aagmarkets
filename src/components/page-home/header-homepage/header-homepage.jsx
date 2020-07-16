@@ -17,7 +17,7 @@ export default class HeaderHomepage extends Component {
         arrows: false,
       };
     return (
-      <header className="header-homepage" id="header-homepage" >
+      <header className="header-homepage">
         <div className="container">
           <Slider {...settings}>
             {headerHomepage.map(el => {

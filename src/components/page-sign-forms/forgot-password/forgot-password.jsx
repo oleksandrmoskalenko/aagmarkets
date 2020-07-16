@@ -6,7 +6,7 @@ import './forgot-password.css'
 
 const ForgotPassword = () => {
   return (
-    <section className="forgot-password" id="forgot-password">
+    <section className="forgot-password">
       <div className="h-100 container">
         <div className="h-100 row d-flex justify-content-center">
           <div className="col-9 col-sm-8 col-md-7 col-lg-6 col-xl-5 d-flex align-items-center">

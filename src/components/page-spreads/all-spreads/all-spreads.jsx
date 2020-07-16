@@ -4,7 +4,7 @@ import './all-spreads.css'
 
 const AllSpreads = ({ allSpreads }) => {
   return (
-    <section className="all-spreads" id="all-spreads">
+    <section className="all-spreads">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">

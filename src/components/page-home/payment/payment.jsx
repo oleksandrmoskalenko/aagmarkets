@@ -4,7 +4,7 @@ import './payment.css'
 
 const Payment = () => {
   return (
-    <section className="payment" id="payment">
+    <section className="payment">
       <div className="h-100 container">
         <div className="h-100 row">
           <div className="col-12 col-md-6">

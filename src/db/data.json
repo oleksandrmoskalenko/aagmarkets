@@ -722,5 +722,32 @@
         "clName": "forex-spreads__item"
       }
     ]
+  },
+  {
+    "leverage1": [
+      {
+        "text": "Leverage is a key feature of the AAG Markets trading platform, and is a very popular tool for traders. You can use it to take advantage of small price movement, execute advanced risk management strategies, and to make your capital grow faster than ever before."
+      },
+      {
+        "text": "Leverage works by using a deposit, also known as margin, to provide you with increased buying and selling power. Basically, you’re putting down a small fraction of the full value of your trade – and AAG Markets is providing cfd bitcoin you the rest. Our products allow traders to increase exposure to major cryptocurrencies, such as Bitcoin and Ethereum and others, without requiring a lot of capital upfront."
+      }
+    ]
+  },
+  {
+    "leverage2": [
+      {
+        "color": "grey",
+        "subtitle": "XAU/USD trade example",
+        "text1": "For example, you want to buy 100 troy ounces of Gold at a price of $1,000. ",
+        "text2": "To enter into this trade with a traditional exchange, you would be required to deposit 100 x $1,000 for a position of $100,000 (not including any commission or other charges). If Gold price goes up by 5%, your 100 troy ounces of Gold are now worth $1,050 each. ",
+        "text3": "If you choose to sell, then you’d have made a $5,000 profit from your original $100,000 investment."
+      },
+      {
+        "color": "blue",
+        "subtitle": "1:200 leverage with AAG Markets",
+        "text1": "Here you’d only have to pay 0.5% of your $100,000 position, or $500 to open such trade on best cfd platform. If the Bitcoin price rises by 5%, you would still make the same profit of $5,000, but at a much lower cost. ",
+        "text2": "That means that profits can be massively multiplied."
+      }
+    ]
   }
 ]

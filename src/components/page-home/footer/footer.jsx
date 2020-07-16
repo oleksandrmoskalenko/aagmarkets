@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Footer = ({ footer1, footer2, footer3, footer4, footer5 }) => {
   return (
     <div>
-      <footer className="footer" id="footer">
+      <footer className="footer">
         <div className="container">
           <div className="row">
             <div className="w-100 footer-block footer-block--logo d-flex justify-content-between flex-wrap">

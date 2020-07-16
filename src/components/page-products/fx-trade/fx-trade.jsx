@@ -4,7 +4,7 @@ import FxTradeBlock from './fx-trade-block'
 
 const FxTrade = ({ fxTrade }) => {
   return (
-    <section className="fx-trade" id="fx-trade">
+    <section className="fx-trade">
       <div className="container">
         <div className="row">
           <div className="col-12">

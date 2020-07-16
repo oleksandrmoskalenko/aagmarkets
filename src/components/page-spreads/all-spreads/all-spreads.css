@@ -42,7 +42,7 @@
 
 @media (max-width: 991px) {
   .all-spreads {
-    height: 560px;
+    height: 1350px;
   }
   
   .all-spreads__title {
@@ -91,15 +91,21 @@
   }
 }
 
+@media (max-width: 514px) {
+  .all-spreads {
+    height: 1400px;
+  }
+}
+
 @media (max-width: 396px) {
   .all-spreads {
-    height: 590px;
+    height: 1420px;
   }
 }
 
 @media (max-width: 369px) {
   .all-spreads {
-    height: 510px;
+    height: 1050px;
   }
   
   .all-spreads__title{
@@ -112,7 +118,7 @@
   }
 
   .all-spreads__table {
-    height: 230px;
+    height: 800px;
     margin: 20px 0 10px;
   }
 
@@ -127,6 +133,6 @@
 
 @media (max-width: 329px) {
   .all-spreads {
-    height: 520px;
+    height: 1070px;
   }
 }

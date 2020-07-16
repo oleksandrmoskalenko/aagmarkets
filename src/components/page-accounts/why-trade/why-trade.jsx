@@ -4,7 +4,7 @@ import WhyTradeBlock from './why-trade-block'
 
 const WhyTrade = ({ whyTrade }) => {
   return (
-    <section className="why-trade" id="why-trade">
+    <section className="why-trade">
       <div className="container">
         <div className="row">
           <div className="col-12">

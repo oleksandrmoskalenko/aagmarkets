@@ -5,7 +5,7 @@ import './accounts.css'
 
 const Accounts = ({ accounts }) => {
   return (
-    <section className="accounts" id="accounts">
+    <section className="accounts">
       <div className="container">
         <div className="row d-flex justify-content-center">
           {accounts.map(el => {
