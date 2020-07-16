@@ -550,5 +550,177 @@
         "spacer": "spacer"
       }
     ]
+  },
+  {
+    "allSpreads": [
+      {
+        "c1": "AUD CAD",
+        "c2": "0.5",
+        "c3": "1",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "AUD CHF",
+        "c2": "0.6",
+        "c3": "1",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "AUD JPY",
+        "c2": "0.5",
+        "c3": "1",
+        "c4": "0.3",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "AUD USD",
+        "c2": "0.3",
+        "c3": "0.9",
+        "c4": "0.1",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR AUD",
+        "c2": "0.4",
+        "c3": "0.8",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR CAD",
+        "c2": "0.3",
+        "c3": "1.1",
+        "c4": "0.1",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR CHF",
+        "c2": "0.4",
+        "c3": "0.9",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR GBP",
+        "c2": "0.4",
+        "c3": "0.9",
+        "c4": "0.1",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR JPY",
+        "c2": "0.6",
+        "c3": "1.3",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR USD",
+        "c2": "0.4",
+        "c3": "1.1",
+        "c4": "0.1",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "GBP AUD",
+        "c2": "0.3",
+        "c3": "0.8",
+        "c4": "0.1",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "GBP CAD",
+        "c2": "0.7",
+        "c3": "1.6",
+        "c4": "0.3",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "GBP CHF",
+        "c2": "0.5",
+        "c3": "1.5",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "JBP JPY",
+        "c2": "0.5",
+        "c3": "1.6",
+        "c4": "0.3",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "GBP USD",
+        "c2": "0.5",
+        "c3": "1.1",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "NZD USD",
+        "c2": "0.7",
+        "c3": "1.7",
+        "c4": "0.4",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "USD CHF",
+        "c2": "0.4",
+        "c3": "1",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "USD JPY",
+        "c2": "0.6",
+        "c3": "1.4",
+        "c4": "0.3",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "NZD JPY",
+        "c2": "0.7",
+        "c3": "1.8",
+        "c4": "0.3",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "CAD JPY",
+        "c2": "0.6",
+        "c3": "1.3",
+        "c4": "0.1",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "AUD NZD",
+        "c2": "0.3",
+        "c3": "0.9",
+        "c4": "0.1",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "EUR NZD",
+        "c2": "0.5",
+        "c3": "1.2",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "GBP NZD",
+        "c2": "0.5",
+        "c3": "1.5",
+        "c4": "0.3",
+        "clName": "forex-spreads__item"
+      },
+      {
+        "c1": "CAD CHF",
+        "c2": "0.6",
+        "c3": "1.6",
+        "c4": "0.2",
+        "clName": "forex-spreads__item"
+      }
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav'
+import { Link } from 'react-router-dom'
 import './forex-spreads.css'
 
 
@@ -36,25 +36,25 @@ const ForexSpreads = ({ forexSpreads }) => {
                 <tr>
                   <td className="forex-spreads__item"></td>
                   <td className="forex-spreads__item">
-                    <Nav.Link href="/homepage" className="forex-spreads__link p-0">
+                    <Link to="/all-spreads" className="forex-spreads__link p-0">
                       <p className="forex-spreads__text forex-spreads__text--small forex-spreads__text--blue">Live and
                       historical
                     spreads</p>
-                    </Nav.Link>
+                    </Link>
                   </td>
                   <td className="forex-spreads__item">
-                    <Nav.Link href="/homepage" className="forex-spreads__link p-0">
+                    <Link to="/all-spreads" className="forex-spreads__link p-0">
                       <p className="forex-spreads__text forex-spreads__text--small forex-spreads__text--blue">Live and
                       historical
                     spreads</p>
-                    </Nav.Link>
+                    </Link>
                   </td>
                   <td className="forex-spreads__item">
-                    <Nav.Link href="/homepage" className="forex-spreads__link p-0">
+                    <Link to="/all-spreads" className="forex-spreads__link p-0">
                       <p className="forex-spreads__text forex-spreads__text--small forex-spreads__text--blue">Live and
                       historical
                     spreads</p>
-                    </Nav.Link>
+                    </Link>
                   </td>
                 </tr>
               </tbody>

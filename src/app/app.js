@@ -6,6 +6,7 @@ import Homepage from '../components/page-home/homepage'
 import AccountsPage from '../components/page-accounts/accounts-page'
 import VipAccountsPage from '../components/page-vip-acc/vip-accounts-page'
 import ProductsPage from '../components/page-products/products-page'
+import SpreadsPage from '../components/page-spreads/spreads-page'
 import SignIn from '../components/page-sign-forms/sign-in/sign-in'
 import SignUp from '../components/page-sign-forms/sign-up/sign-up'
 import ForgotPassword from '../components/page-sign-forms/forgot-password/forgot-password'
@@ -37,7 +38,8 @@ class App extends Component {
       footer1 = data[17].footer1,
       footer2 = data[18].footer2,
       footer3 = data[19].footer3,
-      footer4 = data[20].footer4
+      footer4 = data[20].footer4,
+      allSpreads = data[21].allSpreads
 
     return (
       <div className="App">
@@ -61,21 +63,18 @@ class App extends Component {
               <ProductsPage fxTrade={fxTrade} forexSpreads={forexSpreads} questions={questions} contactUs={contactUs} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
             } />
             <Route path="/login" render={() =>
-              <div className="login">
-                <SignIn />
-              </div>
+              <SignIn />
             } />
             <Route path="/registration" render={() =>
-              <div className="registration">
-                <SignUp signUp={signUp} />
-              </div>
+              <SignUp signUp={signUp} />
             } />
             <Route path="/forgot-password" render={() =>
-              <div className="forgot-password">
-                <ForgotPassword />
-              </div>
+              <ForgotPassword />
             } />
           </div>
+          <Route path="/all-spreads" render={() =>
+            <SpreadsPage allSpreads={allSpreads} questions={questions} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} />
+          } />
         </Router>
       </div>
     );
