@@ -98,9 +98,46 @@
   }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 396px) {
+  .forex-spreads {
+    height: 590px;
+  }
+}
+
+@media (max-width: 369px) {
+  .forex-spreads {
+    height: 510px;
+  }
+  
   .forex-spreads__title{
     font-size: 28px;
     line-height: 45px;
+  }
+
+  .forex-spreads__text {
+    font-size: 11px;
+  }
+
+  .forex-spreads__table {
+    height: 230px;
+    margin: 20px 0 10px;
+  }
+
+  .forex-spreads__item {
+    font-size: 11px;
+  }
+
+  .forex-spreads__text--blue {
+    font-size: 10px;
+  }
+
+  .forex-spreads__text--small {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 329px) {
+  .forex-spreads {
+    height: 520px;
   }
 }

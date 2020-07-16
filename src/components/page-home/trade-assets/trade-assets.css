@@ -181,3 +181,85 @@
   }
 }
 
+@media (max-width: 458px) {
+  .trade-assets {
+    height: 760px;
+  }
+  
+  .trade-assets-block {
+    height: 330px;
+  }
+
+  .trade-assets__table {
+    height: 240px;
+    margin-bottom: 10px;
+  }
+
+  .trade-assets__button {
+    margin: 15px 0;
+  }
+
+  .trade-assets__text--grey {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 371px) {
+  .trade-assets {
+    height: 700px;
+  }
+  
+  .trade-assets__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .trade-assets-block {
+    height: 270px;
+  }
+
+  .trade-assets-block--shadow {
+    height: 330px;
+  }
+
+  .trade-assets__item-title {
+    font-size: 13px;
+  }
+
+  .trade-assets__text {
+    font-size: 11px;
+  }
+
+  .trade-assets__button {
+    width: 144px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .trade-assets__item {
+    font-size: 12px;
+    padding-bottom: 4px;
+  }
+
+  .trade-assets__icon {
+    position: relative;
+    top: 4.5px;
+  }
+}
+
+@media (max-width: 321px) {
+  .trade-assets {
+    height: 710px;
+  }
+  
+  .trade-assets-block {
+    height: 285px;
+  }
+
+  .trade-assets-block--shadow {
+    height: 330px;
+  }
+}
+
+

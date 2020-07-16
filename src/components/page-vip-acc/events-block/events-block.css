@@ -132,3 +132,62 @@
     height: 148px;
   }
 }
+
+@media (max-width: 550px) {
+  .events {
+    height: 870px;
+  }
+}
+
+@media (max-width: 535px) {
+  .events {
+    height: 890px;
+  }
+}
+
+@media (max-width: 460px) {
+  .events {
+    height: 915px;
+  }
+  
+  .events__subsubtitle {
+    height: 40px;
+  }
+
+  .events__wrapper {
+    height: 160px;
+  }
+}
+
+@media (max-width: 385px) {
+  .events {
+    height: 940px;
+  }
+  
+  .events__subsubtitle {
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 371px) {
+  .events {
+    height: 970px;
+  }
+  
+  .events__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .events__wrapper {
+    height: 190px;
+  }
+}
+
+@media (max-width: 340px) {
+  .events__text--small {
+    font-size: 10px;
+  }
+}
